@@ -1,0 +1,7 @@
+C:\Users\vivek\OneDrive\Desktop\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe.config
+C:\Users\vivek\OneDrive\Desktop\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe
+C:\Users\vivek\OneDrive\Desktop\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.pdb
+C:\Users\vivek\OneDrive\Desktop\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.AssemblyReference.cache
+C:\Users\vivek\OneDrive\Desktop\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\vivek\OneDrive\Desktop\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.exe
+C:\Users\vivek\OneDrive\Desktop\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.pdb
