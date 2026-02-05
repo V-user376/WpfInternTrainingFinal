@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.Text.RegularExpressions;
-//using System.Text.Json;
+using System.Text.Json;
 
 
 
@@ -56,13 +56,58 @@ namespace EmployeeManagementSystem
         static int studentID = 1;
         static List<Employee> employees = new List<Employee>
         {
-            new Employee { ID = 1, Name = "", Department = "HR", Salary = 10.5m, JoiningData = DateTime.Now },
-            new Employee { ID = 2, Name = "Mouse", Department = "Developer", Salary = 20.0m, JoiningData = DateTime.Now.AddHours(2) },
-            new Employee { ID = 3, Name = "Keyboard", Department = "Employee", Salary = 31.0m, JoiningData = DateTime.Parse("2025-10-25 10:00 AM") },
+            new Employee { ID = 1, Name = "Mouse", Department = "HR", Salary = 14.5m, JoiningData = DateTime.Now },
+            //new Employee { ID = 2, Name = "Mouse", Department = "Developer", Salary = 2.0m, JoiningData = DateTime.Now.AddHours(2) },
+            //new Employee { ID = 3, Name = "Keyboard", Department = "Employee", Salary = 31.0m, JoiningData = DateTime.Parse("2025-10-25 10:00 AM") },
         //    //new Employee { ID = 4, Name = "speaker", Department = "Inter", Salary = 30.50m }
         };
         static void Main(string[] args)
+
         {
+
+             void LoadDataToTextFile()
+            {
+                string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
+                string path = "employee.json";
+                string fullPath = Path.Combine(desktopPath, path);
+                //List<Employee> emptyList = new List<Employee>();
+                if (!File.Exists(fullPath))
+                {
+                    try
+                    {
+                        using (FileStream fs = File.Create(fullPath))
+                        {
+                            Console.WriteLine("Create");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"{ex.Message}");
+                    }
+                }
+                else
+                {
+                    string jsonString = File.ReadAllText(fullPath);
+                    List<Employee> employees = JsonSerializer.Deserialize<List<Employee>>(jsonString);
+                    foreach (var l in employees)
+                    {
+                        Console.WriteLine($"{l.Name}{l.Department}{l.Salary}{l.ID}");
+                        //Console.WriteLine($"this{employees0}");
+                    }
+                    List<string> newList = File.ReadLines(fullPath).ToList();
+
+                    //foreach (string line in newList)
+                    //{
+                    //    Console.WriteLine(line);
+                    //}
+                }
+            }
+
+
+
+            LoadDataToTextFile();
+            //employees.AddRange(employees);
+
             while (true)
             {
                 Console.WriteLine("\x1b[1m\n=== Employee Management System === \x1b[0m");
@@ -104,7 +149,7 @@ namespace EmployeeManagementSystem
                         SortSalary();
                         break;
                     case "8":
-                        LoadDataToTextFile();
+                        //LoadDataToTextFile();
                         break;
                     default:
                         Console.WriteLine("Enter number 1-6");
@@ -112,6 +157,8 @@ namespace EmployeeManagementSystem
                 }
             }
         }
+
+
         static void AddEmployee()
         {
 
@@ -284,35 +331,43 @@ namespace EmployeeManagementSystem
             Console.WriteLine(new string('-', 95));
         }
 
-        static void LoadDataToTextFile()
-        {
-            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
-            string path = "employee.json";
-            string fullPath = Path.Combine(desktopPath, path);
-            //List<Employee> emptyList = new List<Employee>();
-            if (!File.Exists(fullPath))
-            {
-                try
-                {
-                    using (FileStream fs = File.Create(fullPath))
-                    {
-                        Console.WriteLine("Create");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"{ex.Message}");
-                }
-            }
-            else
-            {
-                List<string> newList = File.ReadLines(fullPath).ToList();
-                foreach (string line in newList)
-                {
-                    Console.WriteLine(line);
-                }
-            }
-        }
+        //static void LoadDataToTextFile()
+        //{
+        //    string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
+        //    string path = "employee.json";
+        //    string fullPath = Path.Combine(desktopPath, path);
+        //    //List<Employee> emptyList = new List<Employee>();
+        //    if (!File.Exists(fullPath))
+        //    {
+        //        try
+        //        {
+        //            using (FileStream fs = File.Create(fullPath))
+        //            {
+        //                Console.WriteLine("Create");
+        //            }
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            Console.WriteLine($"{ex.Message}");
+        //        }
+        //    }
+        //    else
+        //    {
+        //        string jsonString = File.ReadAllText(fullPath);
+        //        List<Employee> employees0 = JsonSerializer.Deserialize<List<Employee>>(jsonString);
+        //        foreach(var l in employees0)
+        //        {
+        //            Console.WriteLine($"{l.Name}{l.Department}{l.Salary}{l.ID}");
+        //            //Console.WriteLine($"this{employees0}");
+        //        }
+        //        List<string> newList = File.ReadLines(fullPath).ToList();
+
+        //        //foreach (string line in newList)
+        //        //{
+        //        //    Console.WriteLine(line);
+        //        //}
+        //    }
+        //}
     }
 
 
