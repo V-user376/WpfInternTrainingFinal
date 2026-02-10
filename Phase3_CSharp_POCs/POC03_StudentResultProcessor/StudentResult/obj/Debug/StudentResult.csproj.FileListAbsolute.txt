@@ -1,0 +1,7 @@
+C:\Github\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC03_StudentResultProcessor\StudentResult\bin\Debug\StudentResult.exe.config
+C:\Github\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC03_StudentResultProcessor\StudentResult\bin\Debug\StudentResult.exe
+C:\Github\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC03_StudentResultProcessor\StudentResult\bin\Debug\StudentResult.pdb
+C:\Github\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC03_StudentResultProcessor\StudentResult\obj\Debug\StudentResult.csproj.AssemblyReference.cache
+C:\Github\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC03_StudentResultProcessor\StudentResult\obj\Debug\StudentResult.csproj.CoreCompileInputs.cache
+C:\Github\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC03_StudentResultProcessor\StudentResult\obj\Debug\StudentResult.exe
+C:\Github\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC03_StudentResultProcessor\StudentResult\obj\Debug\StudentResult.pdb
