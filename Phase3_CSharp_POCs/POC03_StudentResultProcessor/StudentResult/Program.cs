@@ -4,6 +4,7 @@ using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using IronXL; 
 
 public class Student
 {
@@ -31,20 +32,10 @@ namespace StudentResult
 
             while (true)
             {
-                //Console.WriteLine("\x1b[1m\n=== Employee Management System === \x1b[0m");
+                
                 Console.WriteLine("1. Add New Student");
                 Console.WriteLine("2. View All Students");
-                //Console.WriteLine("3. Search Employee by ID");
-                //Console.WriteLine("4. Update Employee  Details");
-                //Console.WriteLine("5. Delete Employee");
-                //Console.WriteLine("6. Exit");
-                //Console.WriteLine("7. Sort Employees by salary");
-                //Console.WriteLine("8. Save data to JSON file");
-
-                
-
-
-
+                               
                 Console.WriteLine("Select operation (1-2): \n");
                 string userChoice = Console.ReadLine();
                 switch (userChoice)
@@ -58,15 +49,38 @@ namespace StudentResult
                     case "2":
                         ViewStudent();
                         break;
-
                     default:
                         Console.WriteLine("Enter number 1-6");
                         break;
                 }
-
-
-
             }
+
+            int i = 2;
+            WorkBook workBook = WorkBook.Create();
+            WorkSheet sheet = workBook.CreateWorkSheet("Sheet1");
+
+            sheet["A1"].Value = "RollNumber";
+            sheet["A2"].Value = "Name";
+            sheet["A3"].Value = "MathMarks";
+            sheet["A4"].Value = "ScienceMarks";
+            sheet["A5"].Value = "EnglishMarks";
+            sheet["A6"].Value = "Percentage";
+            sheet["A7"].Value = "Grade";
+
+            foreach(var  student in students)
+            {
+                sheet["A" + i].Value = student.RollNumber;
+                sheet["B" + i].Value = student.Name;
+                sheet["C" + i].Value = student.MathMarks;
+                sheet["D" + i].Value = student.ScienceMarks;
+                sheet["E" + i].Value = student.EnglishMarks;
+                sheet["F" + i].Value = student.Percentage;
+                sheet["G" + i].Value = student.Grade;
+                i++;
+            }
+
+            workBook.SaveAsCsv("data.csv", ",");
+
         }
 
         static void AddStudent()
@@ -123,9 +137,6 @@ namespace StudentResult
             students.Add(new Student() { RollNumber = rollnum, Name = name, MathMarks = mathMarks, ScienceMarks = scienceMarks, EnglishMarks = englishMarks, TotalMarks = totalMarks, Percentage = percentage, Grade = grade });
 
             //Console.WriteLine($"{rollnum}|{name}|{mathMarks}|{scienceMarks}|{englishMarks}|{totalMarks}|{grade}|{percentage}");
-
-
-            
         }
 
         static void ViewStudent()
@@ -158,7 +169,60 @@ namespace StudentResult
             var highestMarks = students.Select(s => s.TotalMarks).Max();
             Console.WriteLine($"Highest Total {highestMarks}");
 
+            Type type = highestMarks.GetType();
+            Console.WriteLine(type);
 
+
+            //var nameWithHighestMarks = from s in students
+            //                           where s.TotalMarks == highestMarks select highestMarks.ame;
+
+            //Console.WriteLine(nameWithHighestMarks);
+            //var namess = students.Where(s => s.Name.)
+
+            
+
+            Console.WriteLine("\nSubject Toppers");
+
+           
+            
+            var mat = students.Max(p=>p.MathMarks);
+            //Console.WriteLine(mat);
+            //var highestMathMarks = students.Where(p => p.MathMarks == mat).Select(p => p.Name).ToList();
+
+            string highestMathMarks = students.FirstOrDefault(p => p.MathMarks == mat)?.Name;
+            //Console.WriteLine($"{highestMathMarks}");
+            //Console.WriteLine(hhighestMathMarks);
+            Console.WriteLine($"-Maths {highestMathMarks} {mat}");
+
+            var maxScience = students.Max(p => p.ScienceMarks);
+            string maxScienceName = students.FirstOrDefault(p => p.ScienceMarks == maxScience)?.Name;
+            Console.WriteLine($"-Science {maxScienceName} {maxScience}");
+
+            var maxEnglish = students.Max(p => p.EnglishMarks);
+            string maxEnglishName = students.FirstOrDefault(p => p.EnglishMarks == maxEnglish)?.Name;
+            Console.WriteLine($"-English {maxEnglishName} {maxEnglish}"); 
+
+            //var maxEnglishName = students.Where(p => p.EnglishMarks == maxEnglish).Select(p => p.Name).ToList();    // this method is used when there are multiple names 
+            //Console.WriteLine(string.Join(" , ", maxEnglishName));
+
+
+
+
+            Console.WriteLine(new string('-', 40));
+
+            var groupedStudents = students.GroupBy(s => s.Grade).ToList();
+            
+            foreach( var groupedStudent in groupedStudents)
+            {
+                Console.WriteLine($"{groupedStudent.Key} {groupedStudent.Count()}");  
+            }
+            Console.WriteLine(new string('-', 40));
+
+            var failingStudents = students.Where(p => p.MathMarks < 40 || p.EnglishMarks < 40 || p.ScienceMarks < 40).ToList();
+            foreach(var student in failingStudents)
+            {
+                Console.WriteLine(student.Name);
+            }
 
 
 
