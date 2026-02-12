@@ -29,8 +29,8 @@ namespace StudentResult
         static void Main(string[] args)
         {
             //AddStudent();
-
-            while (true)
+            bool t = false;
+            while (!t)
             {
                 
                 Console.WriteLine("1. Add New Student");
@@ -53,33 +53,47 @@ namespace StudentResult
                         Console.WriteLine("Enter number 1-6");
                         break;
                 }
+                t = true;
             }
 
-            int i = 2;
+            //int i = 2;
             WorkBook workBook = WorkBook.Create();
             WorkSheet sheet = workBook.CreateWorkSheet("Sheet1");
 
-            sheet["A1"].Value = "RollNumber";
+            //Add headers
+            sheet["A1"].Value = "RollNumberr";
             sheet["A2"].Value = "Name";
-            sheet["A3"].Value = "MathMarks";
+            sheet["A3"].Value = "MathMarkss";
             sheet["A4"].Value = "ScienceMarks";
-            sheet["A5"].Value = "EnglishMarks";
+            sheet["A5"].Value = "EnglishMarkss";
             sheet["A6"].Value = "Percentage";
-            sheet["A7"].Value = "Grade";
+            sheet["A7"].Value = "Gradee";
 
-            foreach(var  student in students)
+            //foreach(var  student in students)
+            //{
+            //    sheet["A" + i].Value = student.RollNumber;
+            //    sheet["B" + i].Value = student.Name;
+            //    sheet["C" + i].Value = student.MathMarks;
+            //    sheet["D" + i].Value = student.ScienceMarks;
+            //    sheet["E" + i].Value = student.EnglishMarks;
+            //    sheet["F" + i].Value = student.Percentage;
+            //    sheet["G" + i].Value = student.Grade;
+            //    i++;
+            //}
+
+            for(int i = 0; i<students.Count;i++)
             {
-                sheet["A" + i].Value = student.RollNumber;
-                sheet["B" + i].Value = student.Name;
-                sheet["C" + i].Value = student.MathMarks;
-                sheet["D" + i].Value = student.ScienceMarks;
-                sheet["E" + i].Value = student.EnglishMarks;
-                sheet["F" + i].Value = student.Percentage;
-                sheet["G" + i].Value = student.Grade;
-                i++;
+                int row = i + 2;
+                sheet[$"A{row}"].IntValue = students[i].RollNumber;
+                sheet[$"B{row}"].Value = students[i].Name;
+                sheet[$"C{row}"].IntValue = students[i].MathMarks;
+                sheet[$"D{row}"].IntValue = students[i].ScienceMarks;
+                sheet[$"E{row}"].IntValue = students[i].EnglishMarks;
+                sheet[$"F{row}"].DoubleValue = students[i].Percentage;
+                sheet[$"G{row}"].Value = students[i].Grade;
             }
 
-            workBook.SaveAsCsv("data.csv", ",");
+            workBook.SaveAsCsv("data.csv");
 
         }
 
@@ -221,7 +235,7 @@ namespace StudentResult
             var failingStudents = students.Where(p => p.MathMarks < 40 || p.EnglishMarks < 40 || p.ScienceMarks < 40).ToList();
             foreach(var student in failingStudents)
             {
-                Console.WriteLine(student.Name);
+                Console.WriteLine($"Student with marks less than 40 {student.Name}");
             }
 
 
