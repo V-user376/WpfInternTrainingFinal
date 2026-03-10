@@ -8,3 +8,13 @@ C:\Github\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC05_JsonContactBook\JSON F
 C:\Github\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC05_JsonContactBook\JSON FILE OPERATIONS\obj\Debug\JSON FIL.688C49C8.Up2Date
 C:\Github\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC05_JsonContactBook\JSON FILE OPERATIONS\obj\Debug\JSON FILE OPERATIONS.exe
 C:\Github\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC05_JsonContactBook\JSON FILE OPERATIONS\obj\Debug\JSON FILE OPERATIONS.pdb
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC05_JsonContactBook\JSON FILE OPERATIONS\bin\Debug\JSON FILE OPERATIONS.exe.config
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC05_JsonContactBook\JSON FILE OPERATIONS\bin\Debug\JSON FILE OPERATIONS.exe
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC05_JsonContactBook\JSON FILE OPERATIONS\bin\Debug\JSON FILE OPERATIONS.pdb
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC05_JsonContactBook\JSON FILE OPERATIONS\bin\Debug\Newtonsoft.Json.dll
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC05_JsonContactBook\JSON FILE OPERATIONS\bin\Debug\Newtonsoft.Json.xml
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC05_JsonContactBook\JSON FILE OPERATIONS\obj\Debug\JSON FILE OPERATIONS.csproj.AssemblyReference.cache
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC05_JsonContactBook\JSON FILE OPERATIONS\obj\Debug\JSON FILE OPERATIONS.csproj.CoreCompileInputs.cache
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC05_JsonContactBook\JSON FILE OPERATIONS\obj\Debug\JSON FIL.688C49C8.Up2Date
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC05_JsonContactBook\JSON FILE OPERATIONS\obj\Debug\JSON FILE OPERATIONS.exe
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC05_JsonContactBook\JSON FILE OPERATIONS\obj\Debug\JSON FILE OPERATIONS.pdb

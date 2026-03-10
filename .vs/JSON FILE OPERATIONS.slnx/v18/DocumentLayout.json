@@ -1,10 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Github\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC05_JsonContactBook\\JSON FILE OPERATIONS\\",
+  "WorkspaceRootPath": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC05_JsonContactBook\\JSON FILE OPERATIONS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85FAB810-BFA1-44B7-9037-4A0E6FB1B682}|JSON FILE OPERATIONS.csproj|c:\\github\\wpfinterntrainingfinal\\phase3_csharp_pocs\\poc05_jsoncontactbook\\json file operations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{85FAB810-BFA1-44B7-9037-4A0E6FB1B682}|JSON FILE OPERATIONS.csproj|z:\\project\\wpfinterntrainingfinal\\phase3_csharp_pocs\\poc05_jsoncontactbook\\json file operations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85FAB810-BFA1-44B7-9037-4A0E6FB1B682}|JSON FILE OPERATIONS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC03_StudentResultProcessor\\practice\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,14 +35,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Github\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC05_JsonContactBook\\JSON FILE OPERATIONS\\Program.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC05_JsonContactBook\\JSON FILE OPERATIONS\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Github\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC05_JsonContactBook\\JSON FILE OPERATIONS\\Program.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC05_JsonContactBook\\JSON FILE OPERATIONS\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAwF8AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T10:45:56.635Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Github\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC03_StudentResultProcessor\\practice\\Program.cs",
+              "ToolTip": "C:\\Github\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC03_StudentResultProcessor\\practice\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T04:48:35.942Z"
             }
           ]
         }

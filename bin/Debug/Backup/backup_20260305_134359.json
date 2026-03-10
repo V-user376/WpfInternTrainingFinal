@@ -1,0 +1,26 @@
+{
+  "Contacts": [
+    {
+      "ID": "9daaca12-6ac8-48e6-a280-9d9469903dfd",
+      "Name": "user",
+      "PhoneNumber": "1241",
+      "Email": "fwoinf",
+      "Address": "street",
+      "Category": "Friends",
+      "DateAdded": "2026-03-02T13:10:20.6236826+05:30",
+      "IsFavorite": false
+    },
+    {
+      "ID": "0f592105-03b3-431f-9595-9b25bf292c4b",
+      "Name": "user2",
+      "PhoneNumber": "124123",
+      "Email": "wef",
+      "Address": "fwegw",
+      "Category": "Friends",
+      "DateAdded": "2026-03-02T17:00:38.7341664+05:30",
+      "IsFavorite": false
+    }
+  ],
+  "LastModified": "2026-03-02T17:00:38.7341664+05:30",
+  "TotalContacts": 2
+}
