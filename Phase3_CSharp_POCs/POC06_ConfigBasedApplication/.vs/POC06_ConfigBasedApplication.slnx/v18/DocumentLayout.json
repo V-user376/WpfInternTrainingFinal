@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC06_ConfigBasedApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{22ADBCC4-A4B5-4BD5-B59B-DF1C9645DB6A}|POC06_ConfigBasedApplication.csproj|z:\\project\\wpfinterntrainingfinal\\phase3_csharp_pocs\\poc06_configbasedapplication\\models\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22ADBCC4-A4B5-4BD5-B59B-DF1C9645DB6A}|POC06_ConfigBasedApplication.csproj|solutionrelative:models\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{22ADBCC4-A4B5-4BD5-B59B-DF1C9645DB6A}|POC06_ConfigBasedApplication.csproj|z:\\project\\wpfinterntrainingfinal\\phase3_csharp_pocs\\poc06_configbasedapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22ADBCC4-A4B5-4BD5-B59B-DF1C9645DB6A}|POC06_ConfigBasedApplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22ADBCC4-A4B5-4BD5-B59B-DF1C9645DB6A}|POC06_ConfigBasedApplication.csproj|z:\\project\\wpfinterntrainingfinal\\phase3_csharp_pocs\\poc06_configbasedapplication\\models\\userpreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22ADBCC4-A4B5-4BD5-B59B-DF1C9645DB6A}|POC06_ConfigBasedApplication.csproj|solutionrelative:models\\userpreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22ADBCC4-A4B5-4BD5-B59B-DF1C9645DB6A}|POC06_ConfigBasedApplication.csproj|z:\\project\\wpfinterntrainingfinal\\phase3_csharp_pocs\\poc06_configbasedapplication\\models\\combineddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22ADBCC4-A4B5-4BD5-B59B-DF1C9645DB6A}|POC06_ConfigBasedApplication.csproj|solutionrelative:models\\combineddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22ADBCC4-A4B5-4BD5-B59B-DF1C9645DB6A}|POC06_ConfigBasedApplication.csproj|z:\\project\\wpfinterntrainingfinal\\phase3_csharp_pocs\\poc06_configbasedapplication\\models\\featureflags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22ADBCC4-A4B5-4BD5-B59B-DF1C9645DB6A}|POC06_ConfigBasedApplication.csproj|solutionrelative:models\\featureflags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22ADBCC4-A4B5-4BD5-B59B-DF1C9645DB6A}|POC06_ConfigBasedApplication.csproj|z:\\project\\wpfinterntrainingfinal\\phase3_csharp_pocs\\poc06_configbasedapplication\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22ADBCC4-A4B5-4BD5-B59B-DF1C9645DB6A}|POC06_ConfigBasedApplication.csproj|solutionrelative:models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +50,78 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CombinedData.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC06_ConfigBasedApplication\\Models\\CombinedData.cs",
+              "RelativeDocumentMoniker": "Models\\CombinedData.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC06_ConfigBasedApplication\\Models\\CombinedData.cs",
+              "RelativeToolTip": "Models\\CombinedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T11:31:41.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserPreferences.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC06_ConfigBasedApplication\\Models\\UserPreferences.cs",
+              "RelativeDocumentMoniker": "Models\\UserPreferences.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC06_ConfigBasedApplication\\Models\\UserPreferences.cs",
+              "RelativeToolTip": "Models\\UserPreferences.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T09:32:27.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FeatureFlags.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC06_ConfigBasedApplication\\Models\\FeatureFlags.cs",
+              "RelativeDocumentMoniker": "Models\\FeatureFlags.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC06_ConfigBasedApplication\\Models\\FeatureFlags.cs",
+              "RelativeToolTip": "Models\\FeatureFlags.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T09:31:56.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DatabaseConfig.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC06_ConfigBasedApplication\\Models\\DatabaseConfig.cs",
+              "RelativeDocumentMoniker": "Models\\DatabaseConfig.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC06_ConfigBasedApplication\\Models\\DatabaseConfig.cs",
+              "RelativeToolTip": "Models\\DatabaseConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T09:31:13.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC06_ConfigBasedApplication\\Models\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Models\\AppSettings.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC06_ConfigBasedApplication\\Models\\AppSettings.cs",
+              "RelativeToolTip": "Models\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T09:28:56.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC06_ConfigBasedApplication\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC06_ConfigBasedApplication\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAQwFkAAAAxAAAAAAAAAA==",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC06_ConfigBasedApplication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAD4v00AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T06:51:36.856Z",
               "EditorCaption": ""

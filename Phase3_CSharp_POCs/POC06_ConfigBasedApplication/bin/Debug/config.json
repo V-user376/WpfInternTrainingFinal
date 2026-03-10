@@ -1,22 +1,22 @@
 {
-  "d1": {
-    "ApplicationName": "user",
-    "Version": 1,
-    "Environment": "task"
+  "appSettings": {
+    "ApplicationName": "Task Manager Pro",
+    "Version": "ewer",
+    "Environment": "Development"
   },
-  "d2": {
+  "databaseConfig": {
     "Provider": "SQLite",
     "ConnectionString": "Data Source=tasks.db",
-    "MaxConnections": 10
+    "MaxConnections": "10"
   },
-  "d3": {
-    "EnableLogging": true,
-    "EnableNotifications": true,
-    "EnableAutoSave": true
+  "featureFlags": {
+    "EnableLogging": "true",
+    "EnableNotifications": "true",
+    "EnableAutoSave": "false"
   },
-  "d4": {
-    "Theme": "Light",
+  "userPreferences": {
+    "Theme": "Dark",
     "Language": "English",
-    "DateFormat": "2000-12-12T00:00:00"
+    "DateFormat": "yyyy-MM-dd"
   }
 }
