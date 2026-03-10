@@ -1,0 +1,22 @@
+{
+  "d1": {
+    "ApplicationName": "user",
+    "Version": 1,
+    "Environment": "task"
+  },
+  "d2": {
+    "Provider": "SQLite",
+    "ConnectionString": "Data Source=tasks.db",
+    "MaxConnections": 10
+  },
+  "d3": {
+    "EnableLogging": true,
+    "EnableNotifications": true,
+    "EnableAutoSave": true
+  },
+  "d4": {
+    "Theme": "Light",
+    "Language": "English",
+    "DateFormat": "2000-12-12T00:00:00"
+  }
+}
