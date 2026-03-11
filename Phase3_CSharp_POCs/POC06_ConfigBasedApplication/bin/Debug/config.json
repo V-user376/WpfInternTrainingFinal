@@ -1,18 +1,18 @@
 {
   "appSettings": {
     "ApplicationName": "Task Manager Pro",
-    "Version": "ewer",
+    "Version": "33.0",
     "Environment": "Development"
   },
   "databaseConfig": {
     "Provider": "SQLite",
     "ConnectionString": "Data Source=tasks.db",
-    "MaxConnections": "10"
+    "MaxConnections": 10
   },
   "featureFlags": {
-    "EnableLogging": "true",
-    "EnableNotifications": "true",
-    "EnableAutoSave": "false"
+    "EnableLogging": true,
+    "EnableNotifications": true,
+    "EnableAutoSave": true
   },
   "userPreferences": {
     "Theme": "Dark",
