@@ -1,12 +1,12 @@
 {
   "appSettings": {
-    "ApplicationName": "Task Manager Pro",
-    "Version": "33.0",
-    "Environment": "Development"
+    "ApplicationName": "firstName",
+    "Version": "20",
+    "Environment": "environment"
   },
   "databaseConfig": {
-    "Provider": "SQLite",
-    "ConnectionString": "Data Source=tasks.db",
+    "Provider": "sqlite",
+    "ConnectionString": "filename",
     "MaxConnections": 10
   },
   "featureFlags": {
@@ -15,8 +15,8 @@
     "EnableAutoSave": true
   },
   "userPreferences": {
-    "Theme": "Dark",
+    "Theme": "Light",
     "Language": "English",
-    "DateFormat": "yyyy-MM-dd"
+    "DateFormat": "currentDate"
   }
 }

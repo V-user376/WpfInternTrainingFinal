@@ -8,8 +8,8 @@ namespace POC06_ConfigBasedApplication
 {
     public class FeatureFlags
     {
-        public bool EnableLogging { get; set; }
-        public bool EnableNotifications { get; set; }
-        public bool EnableAutoSave { get; set; }
+        public bool EnableLogging { get; set; } = true;
+        public bool EnableNotifications { get; set; } = true;
+        public bool EnableAutoSave { get; set; } = true;
     }
 }
