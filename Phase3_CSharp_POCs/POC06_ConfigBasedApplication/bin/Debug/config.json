@@ -1,16 +1,16 @@
 {
   "appSettings": {
-    "ApplicationName": "firstName",
-    "Version": "20",
+    "ApplicationName": "214",
+    "Version": "12",
     "Environment": "environment"
   },
   "databaseConfig": {
     "Provider": "sqlite",
     "ConnectionString": "filename",
-    "MaxConnections": 10
+    "MaxConnections": 15113
   },
   "featureFlags": {
-    "EnableLogging": true,
+    "EnableLogging": false,
     "EnableNotifications": true,
     "EnableAutoSave": true
   },
