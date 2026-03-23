@@ -1,0 +1,11 @@
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC07_LibraryManagement\bin\Debug\POC07_LibraryManagement.exe.config
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC07_LibraryManagement\bin\Debug\POC07_LibraryManagement.exe
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC07_LibraryManagement\bin\Debug\POC07_LibraryManagement.pdb
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC07_LibraryManagement\bin\Debug\System.ComponentModel.Annotations.dll
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC07_LibraryManagement\bin\Debug\System.Data.SQLite.dll
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC07_LibraryManagement\bin\Debug\System.Data.SQLite.xml
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC07_LibraryManagement\obj\Debug\POC07_LibraryManagement.csproj.AssemblyReference.cache
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC07_LibraryManagement\obj\Debug\POC07_LibraryManagement.csproj.CoreCompileInputs.cache
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC07_LibraryManagement\obj\Debug\POC07_Li.9BDD23A4.Up2Date
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC07_LibraryManagement\obj\Debug\POC07_LibraryManagement.exe
+Z:\Project\WpfInternTrainingFinal\Phase3_CSharp_POCs\POC07_LibraryManagement\obj\Debug\POC07_LibraryManagement.pdb
