@@ -41,6 +41,7 @@ namespace WpfApp1
         {
             InitializeComponent();
             InitializeTrayIcon();
+            ThemeToggle.IsChecked = isDarkTheme;
         }
 
         private void InitializeTrayIcon()
@@ -57,11 +58,11 @@ namespace WpfApp1
 
             System.Windows.Forms.ContextMenuStrip menu = new System.Windows.Forms.ContextMenuStrip();
 
-            menu.Items.Add("show", null, (s, e) => ShowWindow());
-            menu.Items.Add("minimize", null, (s, e) => MinimizeApplication());
-            menu.Items.Add("Open Notes", null, (s, e) => SaveCurrentNotes());
+            menu.Items.Add("View Data", null, (s, e) => ShowWindow());
+            menu.Items.Add("Minimize", null, (s, e) => MinimizeApplication());
+            menu.Items.Add("Save Notes", null, (s, e) => SaveCurrentNotes());
             menu.Items.Add("New Quick Notes", null, (s, e) => SaveQuickNots());
-            menu.Items.Add("View Favorites", null);
+            //menu.Items.Add("View Favorites", null);
             menu.Items.Add("Search Notes", null, (s, e) => SearchNotes());
             menu.Items.Add("Settings", null, (s, e) => Settings(null,null));
             menu.Items.Add("Exit", null, (s, e) => ExitApplication());
@@ -152,7 +153,7 @@ namespace WpfApp1
 
             string filePath = System.IO.Path.Combine(folderPath, title + ".txt");
 
-            string noteWithTimeStamp = $"[{timeStamp}] {content}";
+            string noteWithTimeStamp = $" {content}";
 
 
             File.WriteAllText(filePath, noteWithTimeStamp);
@@ -419,7 +420,7 @@ namespace WpfApp1
                 return;
             }
 
-            string selectedNote = NotesListBox.SelectedItem.ToString().Replace("*", "");
+            string selectedNote = NotesListBox.SelectedItem.ToString().Replace("*", "").Trim();
 
             string favoritesPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "favorites.txt");
 
@@ -441,35 +442,172 @@ namespace WpfApp1
             File.WriteAllLines(favoritesPath, favorites);
 
             System.Windows.MessageBox.Show("Added to Favorites");
+            //System.Windows.MessageBox.Show(NotesListBox.SelectedItem.GetType().ToString()); 
 
+            LoadNotesList();            
         }
 
-        private void ToggleClick(object sender, RoutedEventArgs e)
+
+        //private void RemovefromFavorites(object sender, RoutedEventArgs e)
+        //{
+        //    if (NotesListBox.SelectedItem == null)
+        //        return;
+
+        //    string selectedNote = NotesListBox.SelectedItem as string;
+
+        //    if (string.IsNullOrEmpty(selectedNote))
+        //        return;
+
+        //    string favFolder = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "favorites");
+
+        //    string cleanFile = selectedNote.Replace("*", "");
+
+        //    string filePath = System.IO.Path.Combine(favFolder, cleanFile);
+
+        //    if(File.Exists(filePath))
+        //    {
+
+        //        File.Delete(filePath);
+        //        System.Windows.MessageBox.Show("Removed from Favorites");
+
+        //    }
+        //    else
+        //    {
+        //        System.Windows.MessageBox.Show("File not found in Favorites");
+        //    }
+        //}
+
+
+
+        //private void RemovefromFavorites(object sender, RoutedEventArgs e)
+        //{
+        //    if (NotesListBox.SelectedItem == null)
+        //    {
+        //        System.Windows.MessageBox.Show("Please select a note");
+        //        return;
+        //    }
+
+
+
+
+        //    string selectedNote = NotesListBox.SelectedItem.ToString();
+
+        //    NotesListBox.Items.Remove("⭐ " + fileName);
+
+        //    // FIX: proper cleaning (same as Add)
+        //    string cleanName = selectedNote.Replace("*", "6666666666").Trim().ToString();
+
+        //    string favoritesPath = System.IO.Path.Combine(
+        //        AppDomain.CurrentDomain.BaseDirectory,
+        //        "favorites.txt"
+        //    );
+
+        //    if (File.Exists(favoritesPath))
+        //    {
+        //        var favorites = File.ReadAllLines(favoritesPath).ToList();
+
+        //        if (favorites.Contains(cleanName))
+        //        {
+        //            favorites.Remove(cleanName);
+        //            File.WriteAllLines(favoritesPath, favorites);
+
+        //            System.Windows.MessageBox.Show("Removed from Favorites");
+        //        }
+        //        else
+        //        {
+        //            System.Windows.MessageBox.Show("Note not found in favorites");
+        //        }
+        //    }
+
+        //    LoadNotesList();
+        //}
+
+
+        private void RemovefromFavorites(object sender, RoutedEventArgs e)
+        {
+            if (NotesListBox.SelectedItem == null)
+                return;
+
+            string selectedNote = NotesListBox.SelectedItem.ToString();
+
+
+
+
+            // Remove star
+            string cleanName = selectedNote
+            .Replace("*", "")
+            .Replace("⭐", "")
+            .Replace("★", "")
+            .Trim();ToString();
+           // NotesListView..Replace("*", " ").Trim();
+
+            // Add extension back
+            string fileName = cleanName + ".txt";
+
+            string favFolder = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "favorites");
+            string filePath = System.IO.Path.Combine(favFolder, fileName);
+
+            string favoritesPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "favorites.txt");
+
+            NotesListBox.Items.Remove("⭐ " + fileName);
+
+            // Delete from favorites folder
+            if (File.Exists(filePath))
+            {
+                File.Delete(filePath);
+            }
+
+            // Remove from favorites.txt
+            if (File.Exists(favoritesPath))
+            {
+                var favorites = File.ReadAllLines(favoritesPath).ToList();
+                favorites.Remove(cleanName);
+                File.WriteAllLines(favoritesPath, favorites);
+            }
+
+            System.Windows.MessageBox.Show("Removed from Favorites");
+
+            LoadNotesList();
+        }
+
+
+
+
+
+
+
+
+
+
+
+        private void ThemeToggle_Checked(object sender, RoutedEventArgs e)
+        {
+            ApplyTheme("DarkTheme.xaml");
+            isDarkTheme = true;
+        }
+
+        private void ThemeToggle_Unchecked(object sender, RoutedEventArgs e)
+        {
+            ApplyTheme("LightTheme.xaml");
+            isDarkTheme = false;
+        }
+
+
+        private void ApplyTheme(string themeFile)
         {
             var dict = new ResourceDictionary();
-
-            if (isDarkTheme)
-            {
-                dict.Source = new Uri("LightTheme.xaml", UriKind.Relative);
-            }
-            else
-            {
-                dict.Source = new Uri("DarkTheme.xaml", UriKind.Relative);
-            }
+            dict.Source = new Uri(themeFile, UriKind.Relative);
 
             var dictionaries = System.Windows.Application.Current.Resources.MergedDictionaries;
 
-            // Remove only existing theme dictionary 
             if (dictionaries.Count > 0)
             {
                 dictionaries.RemoveAt(0);
             }
 
-            // Add new theme
             dictionaries.Insert(0, dict);
-
-            isDarkTheme = !isDarkTheme;
         }
+
 
         public string GetPreview(string text, int maxLength)
         {
@@ -550,8 +688,18 @@ namespace WpfApp1
             }
         }
 
+        //private void SaveButton(object sender, RoutedEventArgs e)
+        //{
+        //    SaveCurrentNotes;
+        //}
 
-
+        private void Window_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            if(Keyboard.Modifiers == ModifierKeys.Control && e.Key == Key.S)
+            {
+                SaveCurrentNotes();
+            }
+        }
 
 
 

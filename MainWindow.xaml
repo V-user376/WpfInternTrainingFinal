@@ -5,13 +5,52 @@
         Height="450"
         Width="500"
         WindowStartupLocation="Manual"
-        Left="1200" Top="500">
+        Left="1200" Top="500"
+        KeyDown="Window_KeyDown">
+   
+       
+        <Window.Resources>
+
+        <Style TargetType="ToggleButton">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ToggleButton">
+                        <Grid Width="40" Height="20">
+
+                            <Border x:Name="SwitchTrack"
+                            Background="Gray"
+                            CornerRadius="15"/>
+
+                            <Ellipse x:Name="SwitchThumb"
+                             Width="15"
+                             Height="15"
+                             Fill="White"
+                             Margin="2"
+                             HorizontalAlignment="Left"/>
+
+                        </Grid>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter TargetName="SwitchTrack" Property="Background" Value="Green"/>
+                                <Setter TargetName="SwitchThumb" Property="HorizontalAlignment" Value="Right"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+    </Window.Resources>
+
+        
 
 
 
 
-
-    <Grid Margin="10" Background="{DynamicResource BackgroundBrush}">
+        <Grid Margin="10" Background="{DynamicResource BackgroundBrush}">
 
 
         <Grid.RowDefinitions>
@@ -32,6 +71,8 @@
                  ToolTip="Enter note title here"
                  KeyDown="TitleTextBox_KeyDown"
                  
+                 TextChanged="TitleTextBox_TextChanged"
+
                  Background="{DynamicResource BackgroundBrush}"
                  Foreground="{DynamicResource ForegroundBrush}" 
                  
@@ -43,19 +84,17 @@
                IsHitTestVisible="False"
                Name="PlaceholderText"
                Visibility="Visible"/>
-        
 
-        <Button Name ="ThemeButton"
-                Height="30"
-                Width="40"
-                HorizontalContentAlignment="Right"
-                VerticalContentAlignment="Center"
-                Margin="400,0,0,10"
-                Background="{DynamicResource BackgroundBrush}"
-                Foreground="{DynamicResource ForegroundBrush}" 
-                Click="ToggleClick"
-                Content="Theme"
-                />
+
+        <ToggleButton x:Name="ThemeToggle"
+              Width="60"
+              Height="30"
+              Margin="400,0,0,10"
+              Checked="ThemeToggle_Checked"
+              Unchecked="ThemeToggle_Unchecked"
+              Background="Transparent"
+              BorderThickness="0"/>
+
 
         <Grid Grid.Row="1">
 
@@ -71,7 +110,11 @@
                 <ListBox.ContextMenu>
                     <ContextMenu>
                         <MenuItem Header=" Add to Favorites"
-                                  Click="AddToFavorites_Click"/>
+                                  Click="AddToFavorites_Click"
+                                  />
+                        <MenuItem Header=" Remove from Favorites"
+                                  Click="RemovefromFavorites"
+                                  />
                     </ContextMenu>
                 </ListBox.ContextMenu>
 
