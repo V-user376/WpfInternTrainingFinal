@@ -7,6 +7,8 @@ using System.ComponentModel.DataAnnotations;
 using System.Data.SQLite;
 using System.ComponentModel.Design;
 using System.Runtime.Remoting.Services;
+using System.Security.Cryptography;
+using System.Data.SqlClient;
 
 namespace POC07_LibraryManagement.Models
 {
@@ -147,19 +149,19 @@ namespace POC07_LibraryManagement.Models
             using (var command = new SQLiteCommand(sqlQuery, connection))
             using (SQLiteDataReader reader = command.ExecuteReader())
             {
-                // Print column headers
+                
                 for (int i = 0; i < reader.FieldCount; i++)
                 {
                     Console.Write($"{reader.GetName(i),-40}");
                 }
                 Console.WriteLine("\n----------------------------------------");
 
-                // Read and print data row by row
+                
                 while (reader.Read())
                 {
                     for (int i = 0; i < reader.FieldCount; i++)
                     {
-                        // Access column values by index or name
+                        
                         Console.Write($"{reader[i].ToString(),-20}");
                     }
                     Console.WriteLine();
@@ -188,7 +190,7 @@ namespace POC07_LibraryManagement.Models
 
         public static void UpdateBooks(SQLiteConnection connection)
         {
-            // Take BookId
+           
             Console.WriteLine("Enter Book ID to update:");
             int selectBookId;
             while (!int.TryParse(Console.ReadLine(), out selectBookId))
@@ -196,7 +198,7 @@ namespace POC07_LibraryManagement.Models
                 Console.WriteLine("Invalid ID. Enter a valid number:");
             }
 
-            // Take new TotalCopies
+    
             Console.WriteLine("Enter new Total Copies:");
             int newTotalValue;
             while (!int.TryParse(Console.ReadLine(), out newTotalValue))
@@ -204,7 +206,7 @@ namespace POC07_LibraryManagement.Models
                 Console.WriteLine("Invalid number. Enter again:");
             }
 
-            // Update query
+            
             string query = "UPDATE Book SET TotalCopies = @Total WHERE BookId = @Id";
 
             using (var cmd = new SQLiteCommand(query, connection))
@@ -227,7 +229,6 @@ namespace POC07_LibraryManagement.Models
                 }
             }
         }
-
         public static void DeleteBook(SQLiteConnection connection)
         {
             Console.WriteLine("Enter Book Id");
@@ -256,9 +257,7 @@ namespace POC07_LibraryManagement.Models
                 cmd.ExecuteNonQuery();
 
                 Console.WriteLine("Deleted book");
-
             }
-
         }
 
         public static void TotalBooks(SQLiteConnection connection)
@@ -271,34 +270,48 @@ namespace POC07_LibraryManagement.Models
             }
         }
 
-
-
-
-
-
-
-
-
-
-            
-        //public static void TrackAvailablity(SQLiteConnection connection)
+        //public static void SearchBooks(SQLiteConnection connection)
         //{
-        //    string query = "SELECT * Book";
+        //    string query = @"SELECT * FROM Book
+        //                   WHERE ISBN = @exact
+        //                   OR Category LIKE @search
+        //                   OR AUTHOR LIKE @search 
+        //                   OR TITLE LIKE @search";
 
-        //    using(SQLiteCommand cmd = new SQLiteCommand(query, connection))
-        //    using(SQLiteDataReader reader = cmd.ExecuteReader())
+        //    using (var cmd = new SQLiteCommand(query, connection));
         //    {
-        //        while (reader.Read())
+        //        cmd.Parameters.AddWithValue("@exact", searchText);
+        //        cmd.Parameters.AddWithValue("@search", "%" + searchText + "%");
+
+        //        using (var reader = cmd.ExecuteReader())
         //        {
-        //            int available = (reader["Avail"]
+        //            while (reader.Read())
+        //            {
+        //                Books book = new Books()
+        //                {
+        //                    BookId = Convert.ToInt32(reader["BookId"]),
+        //                    ISBN = reader["ISBN"].ToString(),
+        //                    Title = reader["Title"].ToString(),
+        //                    Author = reader["Author"].ToString(),
+        //                    Category = reader["Category"].ToString(),
+        //                    PublishYear = Convert.ToInt32(reader["PublishYear"]),
+        //                    TotalCopies = Convert.ToInt32(reader["TotalCopies"]),
+        //                    Available = Convert.ToInt32(reader["Available"]),
+        //                    DateAdded = Convert.ToDateTime(reader["DateAdded"])
+        //                };
+
+        //                results.Add(book);
+        //            }
         //        }
-        //    }
+
         //}
 
 
 
 
-        // You can also add Update, Delete, GetAll methods here
+
+
+
     }
 }
 

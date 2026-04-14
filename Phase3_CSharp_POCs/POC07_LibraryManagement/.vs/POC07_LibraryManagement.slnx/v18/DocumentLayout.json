@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC07_LibraryManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63FE5E28-5553-4714-B02E-0B8C19AF6818}|POC07_LibraryManagement.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC07_LibraryManagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63FE5E28-5553-4714-B02E-0B8C19AF6818}|POC07_LibraryManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63FE5E28-5553-4714-B02E-0B8C19AF6818}|POC07_LibraryManagement.csproj|z:\\project\\wpfinterntrainingfinal\\phase3_csharp_pocs\\poc07_librarymanagement\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63FE5E28-5553-4714-B02E-0B8C19AF6818}|POC07_LibraryManagement.csproj|solutionrelative:models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63FE5E28-5553-4714-B02E-0B8C19AF6818}|POC07_LibraryManagement.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC07_LibraryManagement\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63FE5E28-5553-4714-B02E-0B8C19AF6818}|POC07_LibraryManagement.csproj|solutionrelative:models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63FE5E28-5553-4714-B02E-0B8C19AF6818}|POC07_LibraryManagement.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC07_LibraryManagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63FE5E28-5553-4714-B02E-0B8C19AF6818}|POC07_LibraryManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63FE5E28-5553-4714-B02E-0B8C19AF6818}|POC07_LibraryManagement.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC07_LibraryManagement\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{63FE5E28-5553-4714-B02E-0B8C19AF6818}|POC07_LibraryManagement.csproj|solutionrelative:models\\borrowrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63FE5E28-5553-4714-B02E-0B8C19AF6818}|POC07_LibraryManagement.csproj|z:\\project\\wpfinterntrainingfinal\\phase3_csharp_pocs\\poc07_librarymanagement\\models\\members.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63FE5E28-5553-4714-B02E-0B8C19AF6818}|POC07_LibraryManagement.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC07_LibraryManagement\\models\\members.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63FE5E28-5553-4714-B02E-0B8C19AF6818}|POC07_LibraryManagement.csproj|solutionrelative:models\\members.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Books.cs",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC07_LibraryManagement\\Models\\Books.cs",
               "RelativeDocumentMoniker": "Models\\Books.cs",
               "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC07_LibraryManagement\\Models\\Books.cs",
               "RelativeToolTip": "Models\\Books.cs",
-              "ViewState": "AgIAAN0AAAAAAAAAAAAYwGgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAiwA8BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T09:24:26.019Z",
               "IsPinned": true,
@@ -66,7 +66,7 @@
               "RelativeDocumentMoniker": "Models\\Report.cs",
               "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC07_LibraryManagement\\Models\\Report.cs",
               "RelativeToolTip": "Models\\Report.cs",
-              "ViewState": "AgIAAPMAAAAAAAAAAAAYwAUBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAYwAUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-20T10:37:08.943Z",
               "EditorCaption": ""
@@ -79,10 +79,9 @@
               "RelativeDocumentMoniker": "Models\\BorrowRecord.cs",
               "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC07_LibraryManagement\\Models\\BorrowRecord.cs",
               "RelativeToolTip": "Models\\BorrowRecord.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAAAAKUAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAALAAAAAAAAAAAAAswLUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T13:14:18.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T13:14:18.496Z"
             },
             {
               "$type": "Document",
@@ -92,23 +91,21 @@
               "RelativeDocumentMoniker": "Models\\Members.cs",
               "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC07_LibraryManagement\\Models\\Members.cs",
               "RelativeToolTip": "Models\\Members.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAAwKcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T13:13:58.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T13:13:58.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC07_LibraryManagement\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase3_CSharp_POCs\\POC07_LibraryManagement\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAYwFUAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAgwG4AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T09:20:17.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T09:20:17.707Z"
             }
           ]
         }

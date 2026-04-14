@@ -7,10 +7,10 @@
   "databaseConfig": {
     "Provider": "sqlite",
     "ConnectionString": "filename",
-    "MaxConnections": 15113
+    "MaxConnections": 3
   },
   "featureFlags": {
-    "EnableLogging": false,
+    "EnableLogging": true,
     "EnableNotifications": true,
     "EnableAutoSave": true
   },

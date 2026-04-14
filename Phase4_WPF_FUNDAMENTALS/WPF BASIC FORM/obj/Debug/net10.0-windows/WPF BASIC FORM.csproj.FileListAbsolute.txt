@@ -1,0 +1,21 @@
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\bin\Debug\net10.0-windows\WPF BASIC FORM.exe
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\bin\Debug\net10.0-windows\WPF BASIC FORM.deps.json
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\bin\Debug\net10.0-windows\WPF BASIC FORM.runtimeconfig.json
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\bin\Debug\net10.0-windows\WPF BASIC FORM.dll
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\bin\Debug\net10.0-windows\WPF BASIC FORM.pdb
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\obj\Debug\net10.0-windows\MainWindow.g.cs
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\obj\Debug\net10.0-windows\App.g.cs
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\obj\Debug\net10.0-windows\WPF BASIC FORM_MarkupCompile.cache
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\obj\Debug\net10.0-windows\WPF BASIC FORM_MarkupCompile.lref
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\obj\Debug\net10.0-windows\MainWindow.baml
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\obj\Debug\net10.0-windows\WPF BASIC FORM.g.resources
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\obj\Debug\net10.0-windows\WPF BASIC FORM.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\obj\Debug\net10.0-windows\WPF BASIC FORM.AssemblyInfoInputs.cache
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\obj\Debug\net10.0-windows\WPF BASIC FORM.AssemblyInfo.cs
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\obj\Debug\net10.0-windows\WPF BASIC FORM.csproj.CoreCompileInputs.cache
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\obj\Debug\net10.0-windows\WPF BASIC FORM.sourcelink.json
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\obj\Debug\net10.0-windows\WPF BASIC FORM.dll
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\obj\Debug\net10.0-windows\refint\WPF BASIC FORM.dll
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\obj\Debug\net10.0-windows\WPF BASIC FORM.pdb
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\obj\Debug\net10.0-windows\WPF BASIC FORM.genruntimeconfig.cache
+Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\WPF BASIC FORM\obj\Debug\net10.0-windows\ref\WPF BASIC FORM.dll

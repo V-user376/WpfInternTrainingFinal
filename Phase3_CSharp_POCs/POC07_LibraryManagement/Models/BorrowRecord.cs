@@ -9,7 +9,7 @@ namespace POC07_LibraryManagement.Models
 {
     public class BorrowRecord
     {
-        //  Properties
+        
         public int RecordId { get; set; }
         public int BookId { get; set; }
         public int MemberId { get; set; }
@@ -18,7 +18,7 @@ namespace POC07_LibraryManagement.Models
         public DateTime? ReturnDate { get; set; }
         public int Fine { get; set; }
 
-        //  Create BorrowRecord Table
+        
         public static void CreateTable(SQLiteConnection connection)
         {
             string query = @"CREATE TABLE IF NOT EXISTS BorrowRecord(
@@ -37,7 +37,7 @@ namespace POC07_LibraryManagement.Models
                 cmd.ExecuteNonQuery();
         }
 
-        //  Add Borrow Record
+        
         public void Add(SQLiteConnection connection)
         {
             // BookId
@@ -52,7 +52,7 @@ namespace POC07_LibraryManagement.Models
                 Console.WriteLine("Invalid Book ID");
             }
 
-            // MemberId
+           
             while (true)
             {
                 Console.WriteLine("Enter Member ID:");
@@ -64,14 +64,14 @@ namespace POC07_LibraryManagement.Models
                 Console.WriteLine("Invalid Member ID");
             }
 
-            // Borrow Date
+            
             Console.WriteLine("Enter Borrow Date (yyyy-MM-dd) or leave blank for today:");
             string borrowInput = Console.ReadLine();
             if (!DateTime.TryParse(borrowInput, out DateTime borrow))
                 borrow = DateTime.Now;
             BorrowDate = borrow;
 
-            // Due Date
+           
             while (true)
             {
                 Console.WriteLine("Enter Due Date (yyyy-MM-dd):");
@@ -83,7 +83,7 @@ namespace POC07_LibraryManagement.Models
                 Console.WriteLine("Invalid date");
             }
 
-            // Return Date
+           
             while (true)
             {
                 Console.WriteLine("Enter Return Date (yyyy-MM-dd):");
@@ -131,7 +131,7 @@ namespace POC07_LibraryManagement.Models
             }
         }
 
-        //  Optional: List all borrow records
+        
         public static void ShowBorrowRecords(SQLiteConnection connection)
         {
             string sqlQuery = "SELECT * FROM BorrowRecord";
@@ -139,19 +139,19 @@ namespace POC07_LibraryManagement.Models
             using (var command = new SQLiteCommand(sqlQuery, connection))
             using (SQLiteDataReader reader = command.ExecuteReader())
             {
-                // Print column headers
+                
                 for (int i = 0; i < reader.FieldCount; i++)
                 {
                     Console.Write($"{reader.GetName(i),-40}");
                 }
                 Console.WriteLine("\n----------------------------------------");
 
-                // Read and print data row by row
+               
                 while (reader.Read())
                 {
                     for (int i = 0; i < reader.FieldCount; i++)
                     {
-                        // Access column values by index or name
+                        
                         Console.Write($"{reader[i].ToString(),-20}");
                     }
                     Console.WriteLine();
@@ -179,8 +179,7 @@ namespace POC07_LibraryManagement.Models
 
                     int delayDays = (endDates - startDates).Days;
 
-                    //Console.WriteLine("this is the total delay in days");
-                    //Console.WriteLine(delayDays);
+                    
 
                     int totalFine = delayDays * 1;
                     Console.WriteLine($"Total fine is {totalFine}");

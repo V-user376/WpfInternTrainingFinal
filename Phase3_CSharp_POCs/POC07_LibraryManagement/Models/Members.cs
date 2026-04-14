@@ -5,7 +5,7 @@ namespace POC07_LibraryManagement.Models
 {
     public class Member
     {
-        // 🔹 Properties
+        
         public int MemberId { get; set; }
         public string MemberCode { get; set; }
         public string FullName { get; set; }
@@ -15,7 +15,7 @@ namespace POC07_LibraryManagement.Models
         public DateTime MembershipDate { get; set; }
         public bool IsActive { get; set; }
 
-        // 🔹 Create Members Table
+        
         public static void CreateTable(SQLiteConnection connection)
         {
             string query = @"CREATE TABLE IF NOT EXISTS Members(
@@ -33,7 +33,7 @@ namespace POC07_LibraryManagement.Models
                 cmd.ExecuteNonQuery();
         }
 
-        // 🔹 Add Member
+        
         public void Add(SQLiteConnection connection)
         {
             Console.WriteLine("Enter Member Code:");
@@ -92,7 +92,7 @@ namespace POC07_LibraryManagement.Models
             using (var command = new SQLiteCommand(sqlQuery, connection))
             using (SQLiteDataReader reader = command.ExecuteReader())
             {
-                // Print column headers
+                
                 for (int i = 0; i < reader.FieldCount; i++)
                 {
                     Console.Write($"{reader.GetName(i),-40}");
@@ -113,7 +113,7 @@ namespace POC07_LibraryManagement.Models
         }
         public static void UpdateMembers(SQLiteConnection connection)
         {
-            // Take BookId
+            
             Console.WriteLine("Enter Book ID to update:");
             int selectBookId;
             while (!int.TryParse(Console.ReadLine(), out selectBookId))
@@ -121,7 +121,7 @@ namespace POC07_LibraryManagement.Models
                 Console.WriteLine("Invalid ID. Enter a valid number:");
             }
 
-            // Take new TotalCopies
+            
             Console.WriteLine("Enter new Total Copies:");
             int newTotalValue;
             while (!int.TryParse(Console.ReadLine(), out newTotalValue))
@@ -129,7 +129,7 @@ namespace POC07_LibraryManagement.Models
                 Console.WriteLine("Invalid number. Enter again:");
             }
 
-            // Update query
+            
             string query = "UPDATE Book SET TotalCopies = @Total WHERE BookId = @Id";
 
             using (var cmd = new SQLiteCommand(query, connection))
