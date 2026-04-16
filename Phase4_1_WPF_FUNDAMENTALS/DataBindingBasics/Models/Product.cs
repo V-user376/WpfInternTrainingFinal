@@ -10,13 +10,13 @@ namespace DataBindingBasics.Models
 {
     public class Product : INotifyPropertyChanged
     {
-        private int id;
+        private int? id;
         private string name;
-        private int price;
-        private int quantity;
-        private int totalvalue;
+        private int? price;
+        private int? quantity;
+        private int? totalvalue;
 
-        public int Id
+        public int? Id
         {
             get => id;
             set
@@ -33,29 +33,22 @@ namespace DataBindingBasics.Models
             {
                 name = value;
                 OnPropertyChanged(nameof(Name));
+
             }
         }
 
-        public int Price
+        public int? Price
         {
             get => price;
             set
-            {
-                
-
-                
-                    price = value;
-                    
+            {                              
+                    price = value;                    
                     OnPropertyChanged(nameof(Price));
-                    OnPropertyChanged(nameof(TotalValue));
-
-                
-
-
+                    OnPropertyChanged(nameof(TotalValue));               
             }
         }
         
-        public int Quantity
+        public int? Quantity
         {
             get => quantity;
             set
@@ -67,7 +60,7 @@ namespace DataBindingBasics.Models
             }
         }
 
-        public int TotalValue
+        public int? TotalValue
         {
             get => Quantity*Price;
             

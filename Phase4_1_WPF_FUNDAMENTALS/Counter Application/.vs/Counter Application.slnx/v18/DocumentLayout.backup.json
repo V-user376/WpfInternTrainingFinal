@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Counter Application\\",
+  "WorkspaceRootPath": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Counter Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E499D50A-8549-48A6-AE88-C78EE7744DCC}|Counter Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Counter Application\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E499D50A-8549-48A6-AE88-C78EE7744DCC}|Counter Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Counter Application\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E499D50A-8549-48A6-AE88-C78EE7744DCC}|Counter Application.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E499D50A-8549-48A6-AE88-C78EE7744DCC}|Counter Application.csproj|z:\\project\\wpfinterntrainingfinal\\phase4_wpf_fundamentals\\counter application\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E499D50A-8549-48A6-AE88-C78EE7744DCC}|Counter Application.csproj|z:\\project\\wpfinterntrainingfinal\\phase4_1_wpf_fundamentals\\counter application\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E499D50A-8549-48A6-AE88-C78EE7744DCC}|Counter Application.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E499D50A-8549-48A6-AE88-C78EE7744DCC}|Counter Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Counter Application\\models\\number.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E499D50A-8549-48A6-AE88-C78EE7744DCC}|Counter Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Counter Application\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E499D50A-8549-48A6-AE88-C78EE7744DCC}|Counter Application.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E499D50A-8549-48A6-AE88-C78EE7744DCC}|Counter Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Counter Application\\models\\number.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E499D50A-8549-48A6-AE88-C78EE7744DCC}|Counter Application.csproj|solutionrelative:models\\number.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E499D50A-8549-48A6-AE88-C78EE7744DCC}|Counter Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Counter Application\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E499D50A-8549-48A6-AE88-C78EE7744DCC}|Counter Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Counter Application\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E499D50A-8549-48A6-AE88-C78EE7744DCC}|Counter Application.csproj|solutionrelative:helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E499D50A-8549-48A6-AE88-C78EE7744DCC}|Counter Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Counter Application\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E499D50A-8549-48A6-AE88-C78EE7744DCC}|Counter Application.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +34,16 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Number.cs",
-              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Counter Application\\Models\\Number.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Counter Application\\Models\\Number.cs",
               "RelativeDocumentMoniker": "Models\\Number.cs",
-              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Counter Application\\Models\\Number.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Counter Application\\Models\\Number.cs",
               "RelativeToolTip": "Models\\Number.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T12:30:22.217Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -60,11 +59,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RelayCommand.cs",
-              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Counter Application\\Helpers\\RelayCommand.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Counter Application\\Helpers\\RelayCommand.cs",
               "RelativeDocumentMoniker": "Helpers\\RelayCommand.cs",
-              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Counter Application\\Helpers\\RelayCommand.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Counter Application\\Helpers\\RelayCommand.cs",
               "RelativeToolTip": "Helpers\\RelayCommand.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAqwAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,11 +73,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainViewModel.cs",
-              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Counter Application\\ViewModels\\MainViewModel.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Counter Application\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
-              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Counter Application\\ViewModels\\MainViewModel.cs*",
-              "RelativeToolTip": "ViewModels\\MainViewModel.cs*",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwDAAAAAJAAAAAAAAAA==",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Counter Application\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T12:34:19.014Z",
               "EditorCaption": ""
@@ -87,9 +86,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Counter Application\\MainWindow.xaml",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Counter Application\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Counter Application\\MainWindow.xaml*",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Counter Application\\MainWindow.xaml*",
               "RelativeToolTip": "MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-04-14T12:25:51.492Z",
@@ -97,15 +96,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Counter Application\\MainWindow.xaml.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Counter Application\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Counter Application\\MainWindow.xaml.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Counter Application\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAASwBIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T12:25:51.378Z"
+              "WhenOpened": "2026-04-14T12:25:51.378Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\DataBindingBasics\\",
+  "WorkspaceRootPath": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\DataBindingBasics\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\DataBindingBasics\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\DataBindingBasics\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|z:\\project\\wpfinterntrainingfinal\\phase4_1_wpf_fundamentals\\databindingbasics\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|z:\\project\\wpfinterntrainingfinal\\phase4_wpf_fundamentals\\databindingbasics\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\DataBindingBasics\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\DataBindingBasics\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\DataBindingBasics\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\DataBindingBasics\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\DataBindingBasics\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\DataBindingBasics\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7B3CBF8-E0B3-4A5E-A21C-095620DF537A}|DataBindingBasics.csproj|solutionrelative:helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -48,9 +48,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "RelayCommand.cs",
-              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\DataBindingBasics\\Helpers\\RelayCommand.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\DataBindingBasics\\Helpers\\RelayCommand.cs",
               "RelativeDocumentMoniker": "Helpers\\RelayCommand.cs",
-              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\DataBindingBasics\\Helpers\\RelayCommand.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\DataBindingBasics\\Helpers\\RelayCommand.cs",
               "RelativeToolTip": "Helpers\\RelayCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,50 +59,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainViewModel.cs",
-              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\DataBindingBasics\\ViewModels\\MainViewModel.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\DataBindingBasics\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
-              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\DataBindingBasics\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\DataBindingBasics\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwFAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAxwD8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-10T10:41:50.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
-              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\DataBindingBasics\\Models\\Product.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\DataBindingBasics\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\DataBindingBasics\\Models\\Product.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\DataBindingBasics\\Models\\Product.cs",
               "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAowDMAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T10:37:06.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\DataBindingBasics\\Views\\MainWindow.xaml.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\DataBindingBasics\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
-              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\DataBindingBasics\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\DataBindingBasics\\Views\\MainWindow.xaml.cs",
               "RelativeToolTip": "Views\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwCMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T10:26:51.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\DataBindingBasics\\Views\\MainWindow.xaml",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\DataBindingBasics\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
-              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\DataBindingBasics\\Views\\MainWindow.xaml",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\DataBindingBasics\\Views\\MainWindow.xaml",
               "RelativeToolTip": "Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-04-09T10:26:51.897Z",

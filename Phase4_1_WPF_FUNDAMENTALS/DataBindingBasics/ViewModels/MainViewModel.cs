@@ -41,6 +41,8 @@ namespace DataBindingBasics.ViewModels
             AddProductCommand = new RelayCommand(AddProduct);
             RemoveProductCommand = new RelayCommand(RemoveProduct, CanRemoveProduct);
 
+            //OnClickNameCommand = new RelayCommand(AutoGenerateID);
+
             dataCount = Products.Count();
 
         }
@@ -55,29 +57,21 @@ namespace DataBindingBasics.ViewModels
         
         private void AddProduct()
         {
-            //MessageBox.Show("AddProduct called");
-            if(selectedProduct != null)
-            {
-                Products.Add(new Product
-                {
-                    Id = dataCount++,
-                    Name = NewProduct.Name,
-                    Price = NewProduct.Price,
-                    Quantity = NewProduct.Quantity,
-                }       
-                    );
+            //MessageBox.Show($"{ dataCount}");
 
-                NewProduct = new Product();
-                OnPropertyChanged(nameof(NewProduct));
+            if (selectedProduct != null)
+            {
+                selectedProduct.Id = ++dataCount;
             }
         }
-
          
         public Product NewProduct { get; set; } = new Product();
 
         public ICommand AddProductCommand { get; }
 
         public ICommand RemoveProductCommand { get; }
+
+        public ICommand OnClickNameCommand { get; set; } 
 
         private void RemoveProduct()
         {
@@ -92,6 +86,10 @@ namespace DataBindingBasics.ViewModels
             return SelectedProduct != null;
         }
 
+        //private void AutoGenerateID()
+        //{
+        //    NewProduct.Id = dataCount++;
+        //}
 
     }
 }

@@ -13,3 +13,18 @@ Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\Counter Application\ob
 Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\Counter Application\obj\Debug\Counter Application.csproj.CoreCompileInputs.cache
 Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\Counter Application\obj\Debug\Counter Application.exe
 Z:\Project\WpfInternTrainingFinal\Phase4_WPF_FUNDAMENTALS\Counter Application\obj\Debug\Counter Application.pdb
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Counter Application\bin\Debug\Counter Application.exe.config
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Counter Application\bin\Debug\Counter Application.exe
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Counter Application\bin\Debug\Counter Application.pdb
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Counter Application\obj\Debug\Counter Application.csproj.AssemblyReference.cache
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Counter Application\obj\Debug\MainWindow.g.cs
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Counter Application\obj\Debug\App.g.cs
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Counter Application\obj\Debug\Counter Application_MarkupCompile.cache
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Counter Application\obj\Debug\Counter Application_MarkupCompile.lref
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Counter Application\obj\Debug\MainWindow.baml
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Counter Application\obj\Debug\Counter Application.g.resources
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Counter Application\obj\Debug\Counter_Application.Properties.Resources.resources
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Counter Application\obj\Debug\Counter Application.csproj.GenerateResource.cache
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Counter Application\obj\Debug\Counter Application.csproj.CoreCompileInputs.cache
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Counter Application\obj\Debug\Counter Application.exe
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Counter Application\obj\Debug\Counter Application.pdb

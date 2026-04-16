@@ -16,10 +16,10 @@
         <TextBlock Grid.Column="0" Text="Enter a number" Margin="10,14,413,500" />
         <TextBox Margin="118,10,272,500" Width="100" Height="30" Text="{Binding NumberText, UpdateSourceTrigger=PropertyChanged}" />
 
-        <Button Grid.Column="1"            
+        <Button Grid.Column="0"            
         Content="Increase Count"
         Command="{Binding IncreaseNumberCommand}"
-        Margin="10,0,20,10"
+        Margin="270,27,130,517"
         Height="20"
         Width="120"
         />
