@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Phase4_WPF_FUNDAMENTALS/Counter Application/.vs/Counter Application.slnx
+/Phase4_WPF_FUNDAMENTALS/Counter Application/bin/Debug
+/Phase4_WPF_FUNDAMENTALS/Counter Application/obj/Debug
