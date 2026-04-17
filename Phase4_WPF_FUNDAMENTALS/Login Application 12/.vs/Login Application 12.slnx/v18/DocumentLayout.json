@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Login Application 12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A3894E4-6264-43C7-AC9E-4063AFD17305}|Login Application 12.csproj|z:\\project\\wpfinterntrainingfinal\\phase4_wpf_fundamentals\\login application 12\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4A3894E4-6264-43C7-AC9E-4063AFD17305}|Login Application 12.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A3894E4-6264-43C7-AC9E-4063AFD17305}|Login Application 12.csproj|z:\\project\\wpfinterntrainingfinal\\phase4_wpf_fundamentals\\login application 12\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A3894E4-6264-43C7-AC9E-4063AFD17305}|Login Application 12.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A3894E4-6264-43C7-AC9E-4063AFD17305}|Login Application 12.csproj|z:\\project\\wpfinterntrainingfinal\\phase4_wpf_fundamentals\\login application 12\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A3894E4-6264-43C7-AC9E-4063AFD17305}|Login Application 12.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A3894E4-6264-43C7-AC9E-4063AFD17305}|Login Application 12.csproj|z:\\project\\wpfinterntrainingfinal\\phase4_wpf_fundamentals\\login application 12\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A3894E4-6264-43C7-AC9E-4063AFD17305}|Login Application 12.csproj|solutionrelative:helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A3894E4-6264-43C7-AC9E-4063AFD17305}|Login Application 12.csproj|z:\\project\\wpfinterntrainingfinal\\phase4_wpf_fundamentals\\login application 12\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A3894E4-6264-43C7-AC9E-4063AFD17305}|Login Application 12.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Login Application 12\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Login Application 12\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T13:07:55.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Login Application 12\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Login Application 12\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T13:07:31.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Login Application 12\\Helpers\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Helpers\\RelayCommand.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Login Application 12\\Helpers\\RelayCommand.cs",
+              "RelativeToolTip": "Helpers\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T13:07:00.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Login Application 12\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Login Application 12\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-16T13:02:54.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Login Application 12\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_WPF_FUNDAMENTALS\\Login Application 12\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T13:02:54.773Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

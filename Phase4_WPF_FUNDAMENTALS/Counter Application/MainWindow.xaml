@@ -7,35 +7,40 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="800">
     
-        <Grid Margin="10">
+        <Grid Margin="10" RenderTransformOrigin="0.489,0.448">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*" />
                 <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
 
         <TextBlock Grid.Column="0" Text="Enter a number" Margin="10,14,413,500" />
-        <TextBox Margin="118,10,272,500" Width="100" Height="30" Text="{Binding NumberText, UpdateSourceTrigger=PropertyChanged}" />
+        <TextBox Grid.Column="0" Margin="118,10,272,500" Width="100" Height="30" Text="{Binding NumberText, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock Grid.Column="0"
+           Margin="118,90,272,200"
+           Foreground="Red"
+           Text="{Binding ErrorMessage}" />
 
-        <Button Grid.Column="1"            
+
+        <Button Grid.Column="0"            
         Content="Increase Count"
         Command="{Binding IncreaseNumberCommand}"
-        Margin="10,0,20,10"
+        Margin="300,0,20,10"
         Height="20"
-        Width="120"
+        Width="120" RenderTransformOrigin="0.057,-4.68"
         />
 
-        <Button Grid.Column="1"            
+        <Button Grid.Column="0"            
         Content="Decrease Count"
         Command="{Binding DecreaseNumberCommand}"
-        Margin="10,50,20,10"
+        Margin="300,50,20,10"
         Height="20"
         Width="120"
         />
 
-        <Button Grid.Column="1"            
+        <Button Grid.Column="0"            
         Content="Reset"
         Command="{Binding ResetNumberCommand}"
-        Margin="10,100,20,10"
+        Margin="300,100,20,10"
         Height="20"
         Width="120"/>
 

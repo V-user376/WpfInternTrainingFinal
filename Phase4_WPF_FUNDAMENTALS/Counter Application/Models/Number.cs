@@ -8,8 +8,6 @@ namespace Counter_Application.Models
 {
     internal class Number
     {
-        public int number { get; set; }
-        
+        public int number { get; set; }       
     }
-
 }

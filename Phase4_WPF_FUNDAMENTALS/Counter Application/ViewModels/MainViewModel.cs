@@ -24,17 +24,43 @@ namespace Counter_Application.ViewModels
             get => numberText;
             set
             {
-                if (!Regex.IsMatch(value, "^[0-9]*$"))
+                numberText = value;
+
+                if (string.IsNullOrEmpty(value))
                 {
-                    MessageBox.Show("Only numbers are allowed");
-                    return;
+                    ErrorMessage = "";
+                }
+                else if (!Regex.IsMatch(value, "^[0-9]+$"))
+                {
+                    ErrorMessage = "Enter numbers 0-9";
+                }
+                else
+                {
+                    ErrorMessage = "";
                 }
 
-                numberText = value;
                 OnPropertyChanged(nameof(NumberText));
-                OnPropertyChanged(nameof(Number)); // update int property
+                OnPropertyChanged(nameof(Number));
+
+                ((RelayCommand)IncreaseNumberCommand).RaiseCanExecuteChanged();
+                ((RelayCommand)DecreaseNumberCommand).RaiseCanExecuteChanged();
+                ((RelayCommand)ResetNumberCommand).RaiseCanExecuteChanged();
             }
         }
+
+
+        private string errorMessage;
+        public string ErrorMessage
+        {
+            get => errorMessage;
+            set
+            {
+                errorMessage = value; 
+                OnPropertyChanged(nameof(ErrorMessage));
+            }
+        }
+
+
 
         // For calculations / commands
         public int Number
@@ -51,8 +77,8 @@ namespace Counter_Application.ViewModels
         public MainViewModel()
         {
             IncreaseNumberCommand = new RelayCommand(IncreaseNumber);
-            DecreaseNumberCommand = new RelayCommand(DecreaseNumber);
-            ResetNumberCommand = new RelayCommand(ResetNumber); 
+            DecreaseNumberCommand = new RelayCommand(DecreaseNumber, CanExecuteButtons);
+            ResetNumberCommand = new RelayCommand(ResetNumber, CanExecuteButtons); 
         }
         protected void  OnPropertyChanged(string numbers)
         {
@@ -82,6 +108,15 @@ namespace Counter_Application.ViewModels
         {
             Number = 0;
         }
+
+        private bool CanExecuteButtons()
+        {
+            return !string.IsNullOrEmpty(NumberText)
+           && Regex.IsMatch(NumberText, "^[0-9]+$")
+           && string.IsNullOrEmpty(ErrorMessage);
+
+        }
+
         public EventHandler CanExecuteChanged;
 
 

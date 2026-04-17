@@ -1,0 +1,29 @@
+﻿<Window x:Class="Login_Application_12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Login_Application_12"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="0" Grid.Row="0" Text="Enter Username" Margin="41,54,13,0" RenderTransformOrigin="0.738,1.471" Height="36" VerticalAlignment="Top" />
+        <TextBox Grid.Column="1" Grid.Row="0" Margin="0,0,390,70" Width="130" Height="30" Text="{Binding NumberText, UpdateSourceTrigger=PropertyChanged}" RenderTransformOrigin="0.425,-0.616" TextChanged="TextBox_TextChanged" />
+
+        <TextBlock Grid.Column="0" Grid.Row="0" Text="Enter Password" Margin="41,34,13,0" RenderTransformOrigin="0.738,1.471" Height="36" />
+        <TextBox Grid.Column="1" Grid.Row="0" Margin="0,50,390,30" Width="130" Height="30" Text="{Binding NumberText, UpdateSourceTrigger=PropertyChanged}" RenderTransformOrigin="0.425,-0.616" />
+
+        <Button Grid.Column="1" Grid.Row="1" Content="Login" Command="{Binding IncreaseNumberCommand}" Margin="0,0,390,180" Height="20" Width="120" RenderTransformOrigin="0.057,-4.68" />
+         
+    </Grid>
+</Window> 
