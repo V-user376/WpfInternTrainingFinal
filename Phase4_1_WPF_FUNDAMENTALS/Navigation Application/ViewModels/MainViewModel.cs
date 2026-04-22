@@ -26,6 +26,8 @@ namespace Navigation_Application.ViewModels
             }
         }
 
+
+
         public ICommand HomeCommand { get; set; }
         public ICommand SettingsCommand { get; set; }
         public ICommand ProductCommand {  get; set; }
@@ -39,7 +41,20 @@ namespace Navigation_Application.ViewModels
             CurrentView = new HomeViewModel();
         }
         public event PropertyChangedEventHandler PropertyChanged;
-            
+
+        public object Highlight 
+        {
+            get => currentView;
+            set
+            {
+                currentView = value;
+
+                OnPropertyChanged(nameof(Highlight));
+
+            }
+        }
+
+
         protected void OnPropertyChanged(string name)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));

@@ -5,17 +5,78 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Navigation_Application"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        xmlns:conv="clr-namespace:Navigation_Application.Converters">
+
+    <Window.Resources>
+        <conv:ViewMatchConverter x:Key="ViewMatchConverter"/>
+    </Window.Resources>
+
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <StackPanel Background="White">
-            <Button Content="Home" Command="{Binding HomeCommand}" Margin="10"/>
-            <Button Content="Settings" Command="{Binding SettingsCommand}" Margin="10"/>
-            <Button Content="Products" Command="{Binding ProductCommand}" Margin="10"/>
+        <StackPanel Background="DarkGray">
+            <Button Content="Home" Command="{Binding HomeCommand}" Margin="10">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="LightBlue"/>
+
+                        <Style.Triggers>
+                            <DataTrigger Value="True">
+                                <DataTrigger.Binding>
+                                    <Binding Path="CurrentView"
+                                 Converter="{StaticResource ViewMatchConverter}"
+                                 ConverterParameter="HomeViewModel"/>
+                                </DataTrigger.Binding>
+                                <Setter Property="Background" Value="Lavender"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+            </Button>
+
+
+            <Button Content="Settings" Command="{Binding SettingsCommand}" Margin="10">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="LightBlue"/>
+
+                        <Style.Triggers>
+                            <DataTrigger Value="True">
+                                <DataTrigger.Binding>
+                                    <Binding Path="CurrentView"
+                                     Converter="{StaticResource ViewMatchConverter}"
+                                     ConverterParameter="SettingsViewModel"/>
+                                </DataTrigger.Binding>
+                                <Setter Property="Background" Value="Lavender"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button Content="Products" Command="{Binding ProductCommand}" Margin="10">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="LightBlue"/>
+
+                        <Style.Triggers>
+                            <DataTrigger Value="True">
+                                <DataTrigger.Binding>
+                                    <Binding Path="CurrentView"
+                                    Converter="{StaticResource ViewMatchConverter}"
+                                    ConverterParameter="ProductViewModel"/>
+                                </DataTrigger.Binding>
+                                <Setter Property="Background" Value="Lavender"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
         </StackPanel>
 
 

@@ -22,6 +22,11 @@ namespace Navigation_Application.Views
         public Settings()
         {
             InitializeComponent();
+            FontSizeSlider.ValueChanged += (s, e) =>
+            {
+                PreviewText.FontSize = FontSizeSlider.Value;
+            };
         }
     }
+    
 }

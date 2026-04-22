@@ -7,60 +7,64 @@
       "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:views\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\views\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:views\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\viewmodels\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:viewmodels\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\views\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:views\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\views\\settings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:views\\settings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\viewmodels\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:viewmodels\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|z:\\project\\wpfinterntrainingfinal\\phase4_1_wpf_fundamentals\\navigation application\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\converters\\viewmatchconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:converters\\viewmatchconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\views\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:views\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\views\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:views\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|z:\\project\\wpfinterntrainingfinal\\phase4_1_wpf_fundamentals\\navigation application\\views\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:views\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{287032CE-59D7-4197-90F9-1741C870EF96}|Navigation Application.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -85,38 +89,45 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ViewMatchConverter.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\Converters\\ViewMatchConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\ViewMatchConverter.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\Converters\\ViewMatchConverter.cs",
+              "RelativeToolTip": "Converters\\ViewMatchConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T06:35:00.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "Products.xaml.cs",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\Views\\Products.xaml.cs",
               "RelativeDocumentMoniker": "Views\\Products.xaml.cs",
               "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\Views\\Products.xaml.cs",
               "RelativeToolTip": "Views\\Products.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAWwBgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T11:34:43.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T11:34:43.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "Settings.xaml.cs",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\Views\\Settings.xaml.cs",
               "RelativeDocumentMoniker": "Views\\Settings.xaml.cs",
               "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\Views\\Settings.xaml.cs",
               "RelativeToolTip": "Views\\Settings.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAWwBgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-21T11:20:17.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "App.xaml",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -128,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Home.xaml.cs",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\Views\\Home.xaml.cs",
               "RelativeDocumentMoniker": "Views\\Home.xaml.cs",
@@ -136,12 +147,11 @@
               "RelativeToolTip": "Views\\Home.xaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T08:08:36.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T08:08:36.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -149,70 +159,68 @@
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T07:33:35.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T07:33:35.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\Commands\\RelayCommand.cs",
               "RelativeDocumentMoniker": "Commands\\RelayCommand.cs",
               "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\Commands\\RelayCommand.cs",
               "RelativeToolTip": "Commands\\RelayCommand.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T11:08:15.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T11:08:15.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\ViewModels\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\ProductViewModel.cs",
               "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\ViewModels\\ProductViewModel.cs",
               "RelativeToolTip": "ViewModels\\ProductViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-20T11:06:53.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "SettingsViewModel.cs",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\ViewModels\\SettingsViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\SettingsViewModel.cs",
               "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\ViewModels\\SettingsViewModel.cs",
               "RelativeToolTip": "ViewModels\\SettingsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-20T11:06:27.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "HomeViewModel.cs",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\ViewModels\\HomeViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\HomeViewModel.cs",
               "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\ViewModels\\HomeViewModel.cs",
               "RelativeToolTip": "ViewModels\\HomeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-20T11:06:04.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
               "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAvwCYAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA8wCMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-20T10:55:30.177Z",
               "EditorCaption": ""
@@ -231,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Settings.xaml",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\Views\\Settings.xaml",
               "RelativeDocumentMoniker": "Views\\Settings.xaml",
@@ -243,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Home.xaml",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\Views\\Home.xaml",
               "RelativeDocumentMoniker": "Views\\Home.xaml",
@@ -255,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -267,16 +275,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Navigation Application\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAawBcAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAawBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T10:35:49.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T10:35:49.872Z"
             }
           ]
         }

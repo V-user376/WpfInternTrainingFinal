@@ -1,3 +1,6 @@
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Navigation Application\bin\Debug\Navigation Application.exe.config
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Navigation Application\bin\Debug\Navigation Application.exe
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Navigation Application\bin\Debug\Navigation Application.pdb
 Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Navigation Application\obj\Debug\Navigation Application.csproj.AssemblyReference.cache
 Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Navigation Application\obj\Debug\Views\Home.g.cs
 Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Navigation Application\obj\Debug\MainWindow.g.cs
@@ -7,9 +10,6 @@ Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Navigation Applicati
 Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Navigation Application\obj\Debug\GeneratedInternalTypeHelper.g.cs
 Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Navigation Application\obj\Debug\Navigation Application_MarkupCompile.cache
 Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Navigation Application\obj\Debug\Navigation Application_MarkupCompile.lref
-Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Navigation Application\bin\Debug\Navigation Application.exe.config
-Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Navigation Application\bin\Debug\Navigation Application.exe
-Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Navigation Application\bin\Debug\Navigation Application.pdb
 Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Navigation Application\obj\Debug\App.baml
 Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Navigation Application\obj\Debug\Views\Home.baml
 Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Navigation Application\obj\Debug\MainWindow.baml
