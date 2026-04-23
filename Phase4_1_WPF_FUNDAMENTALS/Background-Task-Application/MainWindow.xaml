@@ -1,0 +1,30 @@
+﻿<Window x:Class="Background_Task_Application.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Background_Task_Application"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Insert data in JSON"
+                Width="120"
+                Height="30"
+                Command="{Binding InsertDataCommand}"
+                Margin="0,0,0,50"/>
+
+        <TextBlock Text="{Binding Progress}"
+                   Margin="0,0,0,0"/>
+
+        <ProgressBar Height="25"
+                     Minimum="0"
+                     Maximum="100"
+                     Value="{Binding Progress}"
+                     Width="200"
+                     Margin="0,100,0,0"
+                     />
+
+        
+
+    </Grid>
+</Window>
