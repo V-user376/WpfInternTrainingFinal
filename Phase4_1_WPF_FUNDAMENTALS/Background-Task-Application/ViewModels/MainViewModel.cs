@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows;
 using System.Runtime.CompilerServices;
 using System.ComponentModel;
+using System.Threading;
 
 
 namespace Background_Task_Application.ViewModels
@@ -20,17 +21,20 @@ namespace Background_Task_Application.ViewModels
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChanged(string propertyName)
-        { 
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));        
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-               
 
-        public ICommand InsertDataCommand {  get; set; }
+
+        public ICommand InsertDataCommand { get; set; }
 
 
         public MainViewModel()
         {
             InsertDataCommand = new RelayCommand(_ => GenerateData());
+            CancelCommand = new RelayCommand(_ => CancelTask());
+            PauseCommand = new RelayCommand(_ => PauseTask());
+            ResumeCommand = new RelayCommand(_ => ContinueTask());
         }
 
         private int progress;
@@ -40,15 +44,29 @@ namespace Background_Task_Application.ViewModels
             set
             {
                 progress = value;
-                OnPropertyChanged(nameof(Progress)); 
+                OnPropertyChanged(nameof(Progress));
             }
         }
 
+        private CancellationTokenSource _cts;
+
+        public ICommand CancelCommand { get; set; }
+
+        public ICommand PauseCommand { get; set; }
+        public ICommand ResumeCommand { get; set; }
+
+        private ManualResetEventSlim pauseEvent = new ManualResetEventSlim(true);
+        
 
         private async void GenerateData()
         {
 
-            MessageBox.Show("Data begins to insert in JSON file");
+            //MessageBox.Show("Data begins to insert in JSON file");
+            _cts = new CancellationTokenSource();
+            CancellationToken token = _cts.Token;
+
+            bool isCancel = false;
+
             await Task.Run(() =>
 
             {
@@ -58,6 +76,14 @@ namespace Background_Task_Application.ViewModels
 
                 for (int i = 1; i <= 1000; i++)
                 {
+                    pauseEvent.Wait();
+
+                    if (token.IsCancellationRequested)
+                    {
+                        isCancel = true;                        
+                        return;
+                    }
+
                     jsonData.Add(new Product
                     {
                         Id = i,
@@ -69,7 +95,7 @@ namespace Background_Task_Application.ViewModels
                         Progress = i * 100 / 1000;
                     });
 
-                    System.Threading.Thread.Sleep(0);
+                    System.Threading.Thread.Sleep(100);
 
                 }
 
@@ -77,42 +103,63 @@ namespace Background_Task_Application.ViewModels
 
 
                 File.WriteAllText("data.json", insertData);
-            });
 
-            MessageBox.Show("Data Successfully inserted");
-        }
+            }, token);
 
 
-
-
-
-        private void GenerateDataSyc()
-        {
-            MessageBox.Show("Sync process started");
-
-            var jsonData = new List<Product>();
-
-            for (int i = 1; i <= 1000; i++)
+            if(isCancel)
             {
-                jsonData.Add(new Product
-                {
-                    Id = i,
-                    Name = "User " + i
-                });
-
-                // Simulate heavy work (2 seconds per iteration)
-                System.Threading.Thread.Sleep(50);
+                Progress = 0;                 
             }
+            
 
-            string insertData = JsonConvert.SerializeObject(jsonData, Formatting.Indented);
+        //MessageBox.Show("Data Successfully inserted");
+        }
+        private void CancelTask()
+        {
+            _cts.Cancel();
+        }
 
-            File.WriteAllText("data_sync.json", insertData);
-
-            MessageBox.Show("Sync process completed");
+        private void PauseTask()
+        {
+            pauseEvent.Reset();
+        }
+        private void ContinueTask()
+        {
+            pauseEvent.Set();
         }
 
 
+        //private void GenerateDataSyc()
+        //{
+        //    MessageBox.Show("Sync process started");
 
+        //    var jsonData = new List<Product>();
+
+        //    for (int i = 1; i <= 1000; i++)
+        //    {
+        //        jsonData.Add(new Product
+        //        {
+        //            Id = i,
+        //            Name = "User " + i
+        //        });
+
+        //        // Simulate heavy work (2 seconds per iteration)
+        //        System.Threading.Thread.Sleep(50);
+        //    }
+
+        //    string insertData = JsonConvert.SerializeObject(jsonData, Formatting.Indented);
+
+        //    File.WriteAllText("data_sync.json", insertData);
+
+        //    MessageBox.Show("Sync process completed");
+        //}
+
+        //private CancellationTokenSource _cts;
+
+        //public ICommand CancelCommand { get; set; }
+
+    
 
 
     };
