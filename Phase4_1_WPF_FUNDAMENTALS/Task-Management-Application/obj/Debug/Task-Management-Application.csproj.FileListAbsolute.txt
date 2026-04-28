@@ -1,0 +1,11 @@
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\obj\Debug\Task-Management-Application.csproj.AssemblyReference.cache
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\obj\Debug\Views\SettingsView.baml
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\obj\Debug\Views\TaskDetailView.baml
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\obj\Debug\Views\TaskListView.baml
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\obj\Debug\Views\MainWindow.g.cs
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\obj\Debug\Views\SettingsView.g.cs
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\obj\Debug\Views\TaskDetailView.g.cs
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\obj\Debug\Views\TaskListView.g.cs
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\obj\Debug\App.g.cs
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\obj\Debug\Task-Management-Application_MarkupCompile.cache
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\obj\Debug\Task-Management-Application_MarkupCompile.lref

@@ -1,0 +1,100 @@
+﻿<Window x:Class="Task_Management_Application.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_Management_Application"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!--<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+
+        <TextBlock Text="{Binding AppTitle}"
+                   FontSize="20"
+                   Margin="10"
+                   HorizontalAlignment="Center"/>
+
+        <Button Content="Click"
+                Width="120"
+                Height="30"
+                Command="{Binding TestCommand}"/>
+
+    </StackPanel>-->
+
+    <!--<Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        --><!-- Input Section --><!--
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10" Grid.Row="0">
+            <TextBox Width="200"
+                 Margin="0,0,10,0"
+                 Text="{Binding NewTask, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <Button Content="Add Task"
+                Width="100"
+                Command="{Binding AddTaskCommand}"
+                Margin="0,0,0,0"/>
+            
+        </StackPanel>
+
+        --><!-- DataGrid --><!--
+        <DataGrid Grid.Row="1"
+              ItemsSource="{Binding TaskListVM.Tasks}"
+              AutoGenerateColumns="True">
+
+            <DataGrid.Columns>
+
+                <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="*" />
+                <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="*" />
+                <DataGridTextColumn Header="Priority" Binding="{Binding Priority}" Width="*" />
+
+                
+                
+                --><!-- Delete Button Column -->
+                <!--<DataGridTemplateColumn Header="Action">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Delete"
+                            Command="{Binding DataContext.DeleteTaskCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                            CommandParameter="{Binding}"
+                            Background="Red"
+                            Foreground="White"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>--><!--
+
+                
+                
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+    </Grid>-->
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- LEFT MENU -->
+        <StackPanel Background="#2C3E50" Grid.Column="0">
+
+            <Button Content="Tasks"
+                Margin="10"
+                Command="{Binding ShowTaskListCommand}"/>
+
+            <Button Content="Search"
+                Margin="10"
+                Command="{Binding ShowTaskDetailCommand}"/>
+
+        </StackPanel>
+
+        <!-- RIGHT CONTENT -->
+        <ContentControl Grid.Column="1"
+                    Content="{Binding CurrentView}"/>
+    </Grid>
+
+</Window>
