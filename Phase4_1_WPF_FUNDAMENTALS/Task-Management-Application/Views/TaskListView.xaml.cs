@@ -13,17 +13,20 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Task_Management_Application.ViewModels;
 
+
 namespace Task_Management_Application.Views
 {
     /// <summary>
-    /// Interaction logic for TaskListView.xaml
-    /// </summary>
+    /// Interaction logic for TaskDetailView.xaml
+    /// </summary>     
+
+
     public partial class TaskListView : UserControl
     {
         public TaskListView()
         {
             InitializeComponent();
-            DataContext = new TaskListViewModel();
+            DataContext = new TaskListViewModel();            
         }
     }
 }

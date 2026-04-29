@@ -187,6 +187,7 @@ namespace Task_Management_Application.ViewModels
         public ICommand ShowTaskListCommand { get; }
         public ICommand ShowTaskDetailCommand { get; }
         public ICommand ShowSettingsCommand { get; }
+        public TaskListViewModel TaskListVM { get; set; }
 
         
         public MainViewModel()
@@ -196,8 +197,13 @@ namespace Task_Management_Application.ViewModels
             ShowTaskDetailCommand = new RelayCommand( ShowTaskDetail);
             ShowSettingsCommand = new RelayCommand( ShowSettings);
 
+            TaskListVM = new TaskListViewModel();
+
+            CurrentView = new TaskListView
+            {
+                DataContext = TaskListVM
+            };
             
-            CurrentView = new TaskListView();
         }
 
         
@@ -208,7 +214,10 @@ namespace Task_Management_Application.ViewModels
 
         private void ShowTaskDetail()
         {
-            CurrentView = new TaskDetailView();
+            CurrentView = new TaskDetailView
+            {
+                DataContext = TaskListVM
+            };
         }
 
         private void ShowSettings()

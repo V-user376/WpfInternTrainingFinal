@@ -11,17 +11,20 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Task_Management_Application.ViewModels;
 
 namespace Task_Management_Application.Views
 {
     /// <summary>
     /// Interaction logic for TaskDetailView.xaml
     /// </summary>
-    public partial class TaskDetailView : Window
+    public partial class TaskDetailView : UserControl
     {
         public TaskDetailView()
         {
             InitializeComponent();
+            DataContext = new TaskDetailViewModel();
+
         }
     }
 }

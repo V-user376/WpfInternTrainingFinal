@@ -32,10 +32,10 @@ namespace Task_Management_Application
         {
             base.OnClosing(e);
             
-            if(DataContext is MainViewModel vm)
-            {
-                vm.SaveTasks();
-            }
+            //if(DataContext is MainViewModel vm)
+            //{
+            //    vm.SaveTasks();
+            //}
         }
 
     }

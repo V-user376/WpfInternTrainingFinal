@@ -86,7 +86,7 @@
                 Margin="10"
                 Command="{Binding ShowTaskListCommand}"/>
 
-            <Button Content="Search"
+            <Button Content="Dashboard"
                 Margin="10"
                 Command="{Binding ShowTaskDetailCommand}"/>
 

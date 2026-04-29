@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "633c5709-6063-4a97-964d-65686c04d52f",
+    "Title": "new task",
+    "Description": null,
+    "DueDate": "0001-01-01T00:00:00",
+    "Priority": 0,
+    "IsCompleted": false,
+    "CreatedDate": "2026-04-29T12:08:20.8536501+05:30",
+    "CompletedDate": null
+  },
+  {
+    "Id": "c500f1f0-565e-4fe4-816f-eaa13f1afa35",
+    "Title": "NewTaskSecond",
+    "Description": null,
+    "DueDate": "0001-01-01T00:00:00",
+    "Priority": 0,
+    "IsCompleted": false,
+    "CreatedDate": "2026-04-29T12:24:14.1546753+05:30",
+    "CompletedDate": null
+  },
+  {
+    "Id": "d295dfcc-0201-40c5-b896-2d0ae88851d1",
+    "Title": "fwe",
+    "Description": "few",
+    "DueDate": "2026-04-29T17:37:09.5315978+05:30",
+    "Priority": 0,
+    "IsCompleted": false,
+    "CreatedDate": "2026-04-29T17:37:28.3320995+05:30",
+    "CompletedDate": null
+  }
+]

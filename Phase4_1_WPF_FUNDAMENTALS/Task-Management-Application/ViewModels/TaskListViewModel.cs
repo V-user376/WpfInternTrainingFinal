@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows.Input;
 using Task_Management_Application.Commands;
@@ -11,10 +12,10 @@ namespace Task_Management_Application.ViewModels
     {
         private readonly IDataService dataService;
 
-        // 🔹 Collection (binds to DataGrid)
+        
         public ObservableCollection<Task> Tasks { get; set; }
 
-        // 🔹 Input field
+        
         private string newTask;
         public string NewTask
         {
@@ -25,12 +26,70 @@ namespace Task_Management_Application.ViewModels
                 OnPropertyChanged();
             }
         }
+        private string description;
+        public string Description
+        {
+            get => description;
+            set
+            {
+                description = value;
+                OnPropertyChanged();
 
-        // 🔹 Commands
+            }
+        }
+        private DateTime dueDate = DateTime.Now;
+        public DateTime DueDate
+        {
+            get => dueDate;
+            set
+            {
+                dueDate = value;
+                OnPropertyChanged();
+
+            }
+        }
+
+        public Array Priorities => Enum.GetValues(typeof(TaskPriority));
+
+        private TaskPriority selectedPriority;
+        public TaskPriority SelectedPriority
+        {
+            get => selectedPriority;
+            set
+            {
+                selectedPriority = value;
+                OnPropertyChanged();
+
+
+            }            
+        }
+
+        private Task selectedTask;
+        public Task SelectedTask
+        {
+            get => selectedTask;
+            set
+            {
+                selectedTask = value;
+                OnPropertyChanged();
+
+                if(selectedTask != null)
+                {
+                    NewTask = selectedTask.Title;
+                    Description = selectedTask.Description;
+                    DueDate = selectedTask.DueDate;
+                    SelectedPriority = selectedTask.Priority;
+                }
+            }
+        }
+
+
+
         public ICommand AddTaskCommand { get; }
         public ICommand DeleteTaskCommand { get; }
+        public ICommand UpdateTaskCommand { get; }
 
-        // 🔹 Constructor
+        
         public TaskListViewModel()
         {
             dataService = new JsonDataService();
@@ -40,26 +99,36 @@ namespace Task_Management_Application.ViewModels
             AddTaskCommand = new RelayCommand(AddTask);
             DeleteTaskCommand = new RelayCommand(DeleteTask);
 
-            LoadTasks(); // 🔥 load from JSON
+            LoadTasks();
+
+            UpdateTaskCommand = new RelayCommand(UpdateTask);
         }
 
-        // 🔹 Add Task
+        
         private void AddTask()
         {
             if (!string.IsNullOrWhiteSpace(NewTask))
             {
                 Tasks.Add(new Task
                 {
-                    Title = NewTask
+                    Title = NewTask,
+                    Description = Description,
+                    DueDate = dueDate, 
+                    Priority = SelectedPriority
                 });
 
-                NewTask = ""; // clear textbox
+                NewTask = "";
+                Description = "";
+                DueDate = DateTime.Now;
+
+
+                // clear textbox
 
                 SaveTasks(); // optional: auto-save
             }
         }
 
-        // 🔹 Delete Task
+        
         private void DeleteTask()
         {
             //if (parameter is Task task)
@@ -67,9 +136,18 @@ namespace Task_Management_Application.ViewModels
             //    Tasks.Remove(task);
             //    SaveTasks(); // optional: auto-save
             //}
+
+            if(SelectedTask != null)
+            {
+                Tasks.Remove(SelectedTask);
+
+                SaveTasks();
+
+                SelectedTask = null;
+            }
         }
 
-        // 🔹 Load from JSON
+        
         private void LoadTasks()
         {
             var tasks = dataService.LoadTasks();
@@ -82,11 +160,28 @@ namespace Task_Management_Application.ViewModels
             }
         }
 
-        // 🔹 Save to JSON
+        
         private void SaveTasks()
         {
             var list = Tasks.ToList();
             dataService.SaveTasks(list);
         }
+
+        private void UpdateTask()
+        {
+            if (SelectedTask != null)
+            {
+                SelectedTask.Title = NewTask;
+                SelectedTask.Description = Description;
+                SelectedTask.DueDate = DueDate;
+                SelectedTask.Priority = SelectedPriority;
+
+                OnPropertyChanged(nameof(Tasks));
+
+                SaveTasks();
+            }
+        }
+
+
     }
 }

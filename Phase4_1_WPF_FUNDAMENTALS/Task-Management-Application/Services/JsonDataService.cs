@@ -12,7 +12,7 @@ namespace Task_Management_Application.Services
 {
     public class JsonDataService : IDataService
     {
-        private readonly string filePath = "tasks.json";
+        private readonly string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tasks.json");
 
         public List<Task> LoadTasks()
         {
@@ -26,10 +26,10 @@ namespace Task_Management_Application.Services
         }
 
         public void SaveTasks(List<Task> tasks)
-        {
+        {            
             var json = JsonConvert.SerializeObject(tasks, Formatting.Indented);
 
-            File.WriteAllText(filePath, json);
+            File.WriteAllText(filePath, json);            
         }
     }
 }

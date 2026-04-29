@@ -17,7 +17,7 @@ namespace Task_Management_Application.Views
     /// <summary>
     /// Interaction logic for SettingsView.xaml
     /// </summary>
-    public partial class SettingsView : Window
+    public partial class SettingsView : UserControl
     {
         public SettingsView()
         {

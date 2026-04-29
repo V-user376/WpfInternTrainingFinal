@@ -1,7 +1,75 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\views\\taskdetailview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|solutionrelative:views\\taskdetailview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\views\\tasklistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|solutionrelative:views\\tasklistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\views\\taskdetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|solutionrelative:views\\taskdetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\viewmodels\\tasklistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|solutionrelative:viewmodels\\tasklistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\viewmodels\\taskdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|solutionrelative:viewmodels\\taskdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|solutionrelative:commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|z:\\project\\wpfinterntrainingfinal\\phase4_1_wpf_fundamentals\\task-management-application\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|solutionrelative:models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\views\\settingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|solutionrelative:views\\settingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|z:\\project\\wpfinterntrainingfinal\\phase4_1_wpf_fundamentals\\task-management-application\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\services\\jsondataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|solutionrelative:services\\jsondataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|solutionrelative:viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|z:\\project\\wpfinterntrainingfinal\\phase4_1_wpf_fundamentals\\task-management-application\\models\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|solutionrelative:models\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\views\\settingsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|solutionrelative:views\\settingsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55EF1538-AD97-4A77-B989-C47CE1990909}|Task-Management-Application.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vivek\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +77,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\vivek\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\vivek\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs [Read Only]",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwCsAAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T05:11:29.82Z",
+              "IsPinned": true,
+              "EditorCaption": " [Read Only]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -22,6 +102,209 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskDetailViewModel.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\ViewModels\\TaskDetailViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\TaskDetailViewModel.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\ViewModels\\TaskDetailViewModel.cs",
+              "RelativeToolTip": "ViewModels\\TaskDetailViewModel.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAArwDIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T05:56:32.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAvwNwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T05:25:12.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskListViewModel.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\ViewModels\\TaskListViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\TaskListViewModel.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\ViewModels\\TaskListViewModel.cs",
+              "RelativeToolTip": "ViewModels\\TaskListViewModel.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAhwGUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T05:24:11.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T05:13:18.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskDetailView.xaml",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Views\\TaskDetailView.xaml",
+              "RelativeDocumentMoniker": "Views\\TaskDetailView.xaml",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Views\\TaskDetailView.xaml",
+              "RelativeToolTip": "Views\\TaskDetailView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T04:50:07.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskDetailView.xaml.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Views\\TaskDetailView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TaskDetailView.xaml.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Views\\TaskDetailView.xaml.cs",
+              "RelativeToolTip": "Views\\TaskDetailView.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIAwwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T04:51:12.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ViewModelBase.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T05:25:08.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskListView.xaml.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Views\\TaskListView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TaskListView.xaml.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Views\\TaskListView.xaml.cs",
+              "RelativeToolTip": "Views\\TaskListView.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T05:03:49.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\RelayCommand.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T06:07:38.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Task.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "Models\\Task.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Models\\Task.cs",
+              "RelativeToolTip": "Models\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T09:55:01.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JsonDataService.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Services\\JsonDataService.cs",
+              "RelativeDocumentMoniker": "Services\\JsonDataService.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Services\\JsonDataService.cs",
+              "RelativeToolTip": "Services\\JsonDataService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T05:29:08.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TaskPriority.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Models\\TaskPriority.cs",
+              "RelativeDocumentMoniker": "Models\\TaskPriority.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Models\\TaskPriority.cs",
+              "RelativeToolTip": "Models\\TaskPriority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T08:43:57.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAMwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T05:11:06.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SettingsView.xaml.cs",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Views\\SettingsView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SettingsView.xaml.cs",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Views\\SettingsView.xaml.cs",
+              "RelativeToolTip": "Views\\SettingsView.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIAwwBUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T05:10:16.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SettingsView.xaml",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Views\\SettingsView.xaml",
+              "RelativeDocumentMoniker": "Views\\SettingsView.xaml",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\Views\\SettingsView.xaml",
+              "RelativeToolTip": "Views\\SettingsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T05:09:40.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "Z:\\Project\\WpfInternTrainingFinal\\Phase4_1_WPF_FUNDAMENTALS\\Task-Management-Application\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T04:19:02.706Z",
+              "EditorCaption": ""
             }
           ]
         }
