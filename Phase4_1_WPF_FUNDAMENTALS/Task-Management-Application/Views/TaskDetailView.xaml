@@ -1,11 +1,19 @@
 ﻿<UserControl x:Class="Task_Management_Application.Views.TaskDetailView"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+xmlns:local="clr-namespace:Task_Management_Application"
+            
+xmlns:vm="clr-namespace:Task_Management_Application.ViewModels"
+mc:Ignorable="d">
+
 
     <StackPanel Margin="10">
 
-        <!-- 🔍 Search Box -->
-        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+        <!--  Search Box -->
+        <StackPanel Orientation="Horizontal"  Margin="0,0,0,10">
+            <TextBlock Text="Title" FontWeight="Bold"/>
             <TextBox Width="200"
                  Margin="0,0,10,0"
                  Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" />
@@ -14,28 +22,60 @@
                 Width="100"
                 Command="{Binding SearchCommand}" />
 
-            <Button Content="check"
-    Width="100"
-    Command="{Binding CheckCommand}" />
+            
+            
+                                                        
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="0,20,0,0" >
+            
+            <TextBlock Text="Task Status" FontWeight="Bold" />
+            <TextBlock Text="Priority" FontWeight="Bold" Margin="70,0,0,0"/>
+            <TextBlock Text="OverDue" FontWeight="Bold" Margin="90,0,0,0"/>
 
         </StackPanel>
 
-        <!-- ❗ Message -->
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+
+            
+            <ComboBox Width="120"
+              Margin="0,0,10,0"
+              ItemsSource="{Binding StatusOptions}"
+              SelectedItem="{Binding SelectedStatus}" />
+
+            
+            <ComboBox Width="120"
+              Margin="0,0,10,0"
+              ItemsSource="{Binding PriorityOptions}"
+              SelectedItem="{Binding SelectedPriority}" />
+
+            <ComboBox Width="120"
+              ItemsSource="{Binding DueDateOptions}"
+              SelectedItem="{Binding SelectedDueDate}" />
+
+        </StackPanel>
+
+
+
         <TextBlock Text="{Binding Message}"
                Foreground="Red"
                Margin="0,0,0,10"/>
 
-        <!-- 📊 DataGrid -->
+        
         <DataGrid ItemsSource="{Binding Tasks}"
               AutoGenerateColumns="False">
 
             <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="*" />
                 <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="*" />
                 <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="*" />
                 <DataGridTextColumn Header="DueDate" Binding="{Binding DueDate}" Width="*" />
                 <DataGridTextColumn Header="Priority" Binding="{Binding Priority}" Width="*" />
-            </DataGrid.Columns>
+                <DataGridTextColumn Header="Complete" Binding="{Binding IsCompleted}" Width="*" />
+                <DataGridTextColumn Header="CreatedDate" Binding="{Binding CreatedDate}" Width="*" />
+                <DataGridTextColumn Header="CompleteDate" Binding="{Binding CompleteDate}" Width="*" />
 
+            </DataGrid.Columns>
         </DataGrid>
 
     </StackPanel>

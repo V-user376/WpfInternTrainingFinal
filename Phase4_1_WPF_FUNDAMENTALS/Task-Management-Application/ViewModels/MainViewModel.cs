@@ -132,7 +132,7 @@
 //            System.Windows.MessageBox.Show("Saving...");
 
 //            var list = TaskListVM.Tasks.ToList();
-//            dataService.SaveTasks(list);
+//            dataService.Savex(list);
 //        }
 
 
@@ -163,9 +163,14 @@
 
 
 
+using System;
+using System.Linq;
+using System.Windows;
 using System.Windows.Input;
+using System.Windows.Threading;
 using Task_Management_Application.Commands;
 using Task_Management_Application.Views;
+
 
 namespace Task_Management_Application.ViewModels
 {
@@ -183,6 +188,8 @@ namespace Task_Management_Application.ViewModels
             }
         }
 
+        private DispatcherTimer notificationTimer;
+
         
         public ICommand ShowTaskListCommand { get; }
         public ICommand ShowTaskDetailCommand { get; }
@@ -190,6 +197,10 @@ namespace Task_Management_Application.ViewModels
         public TaskListViewModel TaskListVM { get; set; }
 
         
+
+        private TaskListViewModel taskListVM = new TaskListViewModel();
+        private TaskDetailViewModel taskDetailVM = new TaskDetailViewModel();
+
         public MainViewModel()
         {
             
@@ -201,28 +212,67 @@ namespace Task_Management_Application.ViewModels
 
             CurrentView = new TaskListView
             {
-                DataContext = TaskListVM
+                DataContext = taskListVM
             };
+
+            notificationTimer = new DispatcherTimer();
+            notificationTimer.Interval = TimeSpan.FromMinutes(1);
+            notificationTimer.Tick += CheckDueTasks;
+            notificationTimer.Start();
             
         }
 
+        private DateTime lastNotificationDate = DateTime.MinValue;
         
         private void ShowTaskList()
         {
             CurrentView = new TaskListView();
+            //{
+            //    DataContext = taskListVM
+            //};
         }
 
         private void ShowTaskDetail()
         {
-            CurrentView = new TaskDetailView
-            {
-                DataContext = TaskListVM
-            };
+            CurrentView = new TaskDetailView();
+            //{
+            //    DataContext = taskDetailVM
+            //};
         }
 
         private void ShowSettings()
         {
             CurrentView = new SettingsView();
         }
+
+        private void CheckDueTasks(object sender, EventArgs e)
+        {
+            var today = DateTime.Today;
+
+            // Prevent repeat notification
+            if (lastNotificationDate == today)
+                return;
+
+            var tasks = taskListVM.Tasks;
+
+            var dueTodayTasks = tasks
+                .Where(t => t.DueDate.Date == today && !t.IsCompleted)
+                .ToList();
+
+            if (dueTodayTasks.Any())
+            {
+                string message = "Tasks due today:\n\n";
+
+                foreach (var task in dueTodayTasks)
+                {
+                    message += "- " + task.Title + "\n";
+                }
+
+                MessageBox.Show(message, "Reminder");
+
+                lastNotificationDate = today; // mark as shown
+            }
+        }
+
     }
 }

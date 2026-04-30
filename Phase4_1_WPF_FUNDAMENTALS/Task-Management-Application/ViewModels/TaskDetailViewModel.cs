@@ -12,13 +12,14 @@ public class TaskDetailViewModel : ViewModelBase
 {
     private readonly IDataService dataService;
 
-    // 🔹 Original full data
+    
     private ObservableCollection<Task> allTasks;
 
-    // 🔹 Data shown in DataGrid
+    
     public ObservableCollection<Task> Tasks { get; set; }
 
-    // 🔹 Search text
+
+    
     private string searchText;
     public string SearchText
     {
@@ -30,7 +31,7 @@ public class TaskDetailViewModel : ViewModelBase
         }
     }
 
-    // 🔹 Message for "No data found"
+    
     private string message;
     public string Message
     {
@@ -42,15 +43,81 @@ public class TaskDetailViewModel : ViewModelBase
         }
     }
 
-    // 🔹 Command
+
+    public enum TaskStatusFilter
+    {
+        All,
+        Active,
+        Completed
+    }
+
+    public enum DueDateFilter
+    {
+        All,
+        Today,
+        ThisWeek,
+        Overdue
+    }
+
+    public Array Priorities => Enum.GetValues(typeof(TaskPriority));
+
+    public Array StatusOptions => Enum.GetValues(typeof(TaskStatusFilter));
+    public Array PriorityOptions => Enum.GetValues(typeof(TaskPriority));
+    public Array DueDateOptions => Enum.GetValues(typeof(DueDateFilter));
+
+    private TaskStatusFilter selectedStatus = TaskStatusFilter.All;
+    
+    public TaskStatusFilter SelectedStatus
+    {
+        get => selectedStatus;
+        set
+        {
+            selectedStatus = value;
+            OnPropertyChanged();
+            ApplyFilters(); // 🔥 auto filter
+        }
+    }
+
+    private TaskPriority? selectedPriority;
+    public TaskPriority? SelectedPriority
+    {
+        get => selectedPriority;
+        set
+        {
+            selectedPriority = value;
+            OnPropertyChanged();
+            ApplyFilters();
+        }
+    }
+
+    private DueDateFilter selectedDueDate = DueDateFilter.All;
+    public DueDateFilter SelectedDueDate
+    {
+        get => selectedDueDate;
+        set
+        {
+            selectedDueDate = value;
+            OnPropertyChanged();
+            ApplyFilters();
+        }
+    }
+
+
+
+
+
+
+
+
+
     public ICommand SearchCommand { get; set; }
     public ICommand CheckCommand { get; set; }
 
     public TaskDetailViewModel()
     {
-        SearchCommand = new RelayCommand(Search);
+        //SearchCommand = new RelayCommand(Search);
 
-        CheckCommand = new RelayCommand(Check);
+        
 
         dataService = new JsonDataService();
 
@@ -60,7 +127,13 @@ public class TaskDetailViewModel : ViewModelBase
 
         Tasks = new ObservableCollection<Task>(allTasks);
 
-        
+        SearchCommand = new RelayCommand(() =>
+        {
+            MessageBox.Show("Search command fired");
+            Search();
+        });
+
+        CheckCommand = new RelayCommand(Check);
     }
 
     private void Check()
@@ -69,40 +142,92 @@ public class TaskDetailViewModel : ViewModelBase
         throw new NotImplementedException();
     }
 
+
+
+    //  Search Logic 
     private void Search()
     {
-        throw new NotImplementedException();
+
+        MessageBox.Show("Search clicked");        
+
+        if (string.IsNullOrWhiteSpace(SearchText))
+        {
+            Tasks.Clear();
+
+            foreach (var task in allTasks)
+                Tasks.Add(task);
+
+            Message = "";
+            return;
+        }
+
+        var result = allTasks
+            .Where(t =>
+                (!string.IsNullOrEmpty(t.Title) &&
+                 t.Title.ToLower().Contains(SearchText.ToLower())) ||
+
+                (!string.IsNullOrEmpty(t.Description) &&
+                 t.Description.ToLower().Contains(SearchText.ToLower()))
+            )
+            .ToList();
+
+        Tasks.Clear();
+
+        if (result.Any())
+        {
+            foreach (var task in result)
+                Tasks.Add(task);
+
+            Message = "";
+        }
+        else
+        {
+            Message = "No data found";
+        }
+
+
+
+    }
+    private void ApplyFilters()
+    {
+        var filtered = allTasks.AsEnumerable();
+
+        // STATUS FILTER
+        if (SelectedStatus == TaskStatusFilter.Active)
+            filtered = filtered.Where(t => !t.IsCompleted);
+
+        else if (SelectedStatus == TaskStatusFilter.Completed)
+            filtered = filtered.Where(t => t.IsCompleted);
+
+        // PRIORITY FILTER
+        if (SelectedPriority != null)
+            filtered = filtered.Where(t => t.Priority == SelectedPriority);
+
+        // DUE DATE FILTER
+        if (SelectedDueDate == DueDateFilter.Today)
+        {
+            var today = DateTime.Today;
+            filtered = filtered.Where(t => t.DueDate.Date == today);
+        }
+        else if (SelectedDueDate == DueDateFilter.ThisWeek)
+        {
+            var start = DateTime.Today;
+            var end = start.AddDays(7);
+            filtered = filtered.Where(t => t.DueDate >= start && t.DueDate <= end);
+        }
+        else if (SelectedDueDate == DueDateFilter.Overdue)
+        {
+            var today = DateTime.Today;
+            filtered = filtered.Where(t => t.DueDate < today && !t.IsCompleted);
+        }
+
+        // UPDATE UI
+        Tasks.Clear();
+
+        foreach (var task in filtered)
+            Tasks.Add(task);
     }
 
-    // 🔍 SEARCH LOGIC
-    //private void Search()
-    //{
 
-    //    MessageBox.Show("Search clicked");
 
-    //    if (string.IsNullOrWhiteSpace(SearchText))
-    //    {
-    //        Tasks = new ObservableCollection<Task>(allTasks);
-    //        Message = "";
-    //    }
-    //    else
-    //    {
-    //        var result = allTasks
-    //            .Where(t => t.Title.Contains(SearchText)) // case-sensitive
-    //            .ToList();
-
-    //        if (result.Any())
-    //        {
-    //            Tasks = new ObservableCollection<Task>(result);
-    //            Message = "";
-    //        }
-    //        else
-    //        {
-    //            Tasks.Clear();
-    //            Message = "No data found";
-    //        }
-    //    }
-
-    //    OnPropertyChanged(nameof(Tasks));
-    //}
 }

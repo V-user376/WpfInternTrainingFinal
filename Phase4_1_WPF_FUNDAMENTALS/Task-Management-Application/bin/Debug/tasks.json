@@ -5,7 +5,7 @@
     "Description": null,
     "DueDate": "0001-01-01T00:00:00",
     "Priority": 0,
-    "IsCompleted": false,
+    "IsCompleted": true,
     "CreatedDate": "2026-04-29T12:08:20.8536501+05:30",
     "CompletedDate": null
   },
@@ -21,7 +21,7 @@
   },
   {
     "Id": "d295dfcc-0201-40c5-b896-2d0ae88851d1",
-    "Title": "fwe",
+    "Title": "trial",
     "Description": "few",
     "DueDate": "2026-04-29T17:37:09.5315978+05:30",
     "Priority": 0,
