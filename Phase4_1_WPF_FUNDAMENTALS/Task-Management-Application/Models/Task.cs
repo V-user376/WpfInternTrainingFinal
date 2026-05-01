@@ -108,6 +108,16 @@ namespace Task_Management_Application.Models
             }
         }
 
+        public bool IsOverdue
+        {
+            get
+            {
+                return !IsCompleted && DueDate.Date < DateTime.Now.Date;
+            }
+        }
+
+
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)

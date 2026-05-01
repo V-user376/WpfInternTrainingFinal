@@ -73,22 +73,37 @@
 
     </Grid>-->
 
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+    </Window.Resources>
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
+        <Grid Background="{DynamicResource BackgroundBrush}">
+            <TextBlock Foreground="{DynamicResource ForegroundBrush}" />
+        </Grid>
+
+
         <!-- LEFT MENU -->
         <StackPanel Background="#2C3E50" Grid.Column="0">
 
-            <Button Content="Tasks"
+            <Button Content="Dashboard"
+                Margin="10"
+                Command="{Binding ShowTaskDetailCommand}"
+                Visibility="{Binding DashboardVisible, Converter={StaticResource BoolToVisibilityConverter}}"/>
+
+            <Button Content="Task"
                 Margin="10"
                 Command="{Binding ShowTaskListCommand}"/>
 
-            <Button Content="Dashboard"
+            <Button Content="Settings"
                 Margin="10"
-                Command="{Binding ShowTaskDetailCommand}"/>
+                Command="{Binding ShowSettingsCommand}"/>
 
         </StackPanel>
 
@@ -97,4 +112,6 @@
                     Content="{Binding CurrentView}"/>
     </Grid>
 
+    
+    
 </Window>

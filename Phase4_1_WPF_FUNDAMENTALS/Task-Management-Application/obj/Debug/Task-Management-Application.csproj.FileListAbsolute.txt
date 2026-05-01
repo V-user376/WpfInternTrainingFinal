@@ -22,3 +22,5 @@ Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Appl
 Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\obj\Debug\Task-Man.5A1140D5.Up2Date
 Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\obj\Debug\Task-Management-Application.exe
 Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\obj\Debug\Task-Management-Application.pdb
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\obj\Debug\Themes\DarkTheme.baml
+Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\obj\Debug\Themes\LightTheme.baml

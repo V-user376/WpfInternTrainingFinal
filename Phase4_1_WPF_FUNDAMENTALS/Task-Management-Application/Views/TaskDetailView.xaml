@@ -1,12 +1,11 @@
 ﻿<UserControl x:Class="Task_Management_Application.Views.TaskDetailView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-xmlns:local="clr-namespace:Task_Management_Application"
-            
-xmlns:vm="clr-namespace:Task_Management_Application.ViewModels"
-mc:Ignorable="d">
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:Task_Management_Application"            
+             xmlns:vm="clr-namespace:Task_Management_Application.ViewModels"
+             mc:Ignorable="d">
 
 
     <StackPanel Margin="10">
@@ -22,9 +21,6 @@ mc:Ignorable="d">
                 Width="100"
                 Command="{Binding SearchCommand}" />
 
-            
-            
-                                                        
         </StackPanel>
 
         <StackPanel Orientation="Horizontal" Margin="0,20,0,0" >
@@ -42,7 +38,6 @@ mc:Ignorable="d">
               Margin="0,0,10,0"
               ItemsSource="{Binding StatusOptions}"
               SelectedItem="{Binding SelectedStatus}" />
-
             
             <ComboBox Width="120"
               Margin="0,0,10,0"
@@ -77,6 +72,27 @@ mc:Ignorable="d">
 
             </DataGrid.Columns>
         </DataGrid>
+
+        <StackPanel Orientation="Horizontal" Margin="0,20,0,0" >
+
+            <TextBlock Text="Tasks" FontWeight="Bold" FontSize="20" />
+            <TextBlock Text="Pending" FontWeight="Bold" Margin="80,0,0,0" FontSize="20" /> 
+            <TextBlock Text="Overdue" FontWeight="Bold" Margin="80,0,0,0" FontSize="20" />
+            
+            
+
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="0,20,0,0" >
+
+            <TextBlock Text="{Binding TotalTasks}" FontSize="20" />
+            <TextBlock Text="{Binding PendingTasks}" Margin="120,0,0,0" FontSize="20" />
+            <TextBlock Text="{Binding OverdueTasks}" Margin="150,0,0,0" FontSize="20" />
+
+
+        </StackPanel>
+
+
 
     </StackPanel>
 

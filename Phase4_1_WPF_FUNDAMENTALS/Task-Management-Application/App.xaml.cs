@@ -13,5 +13,16 @@ namespace Task_Management_Application
     /// </summary>
     public partial class App : Application
     {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+
+            var theme = new ResourceDictionary
+            {
+                Source = new Uri("Themes/LightTheme.xaml", UriKind.Relative)
+            };
+
+            Resources.MergedDictionaries.Add(theme);
+        }
     }
 }

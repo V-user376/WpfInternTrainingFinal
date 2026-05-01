@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 Z:\Project\WpfInternTrainingFinal\Phase4_1_WPF_FUNDAMENTALS\Task-Management-Application\App.xaml
-4423840366
+6-405628766
 
 19826507810
-14-778154706
-MainWindow.xaml;Views\SettingsView.xaml;Views\TaskDetailView.xaml;Views\TaskListView.xaml;
+1628168424
+MainWindow.xaml;Themes\DarkTheme.xaml;Themes\LightTheme.xaml;Views\SettingsView.xaml;Views\TaskDetailView.xaml;Views\TaskListView.xaml;
 
-True
+False
 

@@ -182,19 +182,32 @@ namespace Task_Management_Application.ViewModels
         
         private void DeleteTask()
         {
-            //if (parameter is Task task)
+
+            //if(SelectedTask != null)
             //{
-            //    Tasks.Remove(task);
-            //    SaveTasks(); // optional: auto-save
+            //    Tasks.Remove(SelectedTask);
+
+            //    SaveTasks();
+
+            //    SelectedTask = null;
             //}
 
-            if(SelectedTask != null)
+            if (SelectedTask == null)
+                return;
+
+            var result = MessageBox.Show("Are you sure you want to delete", "Confirm Delete", MessageBoxButton.OKCancel, MessageBoxImage.Warning);
+
+            if (result == MessageBoxResult.OK)
             {
+                
                 Tasks.Remove(SelectedTask);
 
                 SaveTasks();
-
-                SelectedTask = null;
+            }
+            else
+            {
+                
+                return;
             }
         }
 

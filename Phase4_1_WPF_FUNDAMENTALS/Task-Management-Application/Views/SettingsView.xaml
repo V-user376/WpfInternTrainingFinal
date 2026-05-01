@@ -3,9 +3,22 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <Grid>
-        <TextBlock Text="Settings Page"
-                   FontSize="24"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"/>
+        
+
+        <ToggleButton IsChecked="{Binding DashboardVisible}" 
+                      Width="100"
+                      Height="30"
+                      Content="Toggle"/>
+
+        
+
+        <ToggleButton IsChecked="{Binding IsDarkTheme}"
+              Content="Toggle Theme"
+              Width="150"
+              Height="30"
+              Margin="0,100,0,0"/>
+
+
+
     </Grid>
 </UserControl>

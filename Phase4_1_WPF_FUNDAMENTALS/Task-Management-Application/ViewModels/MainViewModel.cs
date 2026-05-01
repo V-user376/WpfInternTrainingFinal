@@ -170,6 +170,9 @@ using System.Windows.Input;
 using System.Windows.Threading;
 using Task_Management_Application.Commands;
 using Task_Management_Application.Views;
+using System.Windows.Forms;
+using System.Drawing;
+using System.IO; 
 
 
 namespace Task_Management_Application.ViewModels
@@ -185,6 +188,42 @@ namespace Task_Management_Application.ViewModels
             {
                 currentView = value;
                 OnPropertyChanged();
+            }
+        }
+
+
+        private bool isDarkTheme;
+
+        public bool IsDarkTheme
+        {
+            get => isDarkTheme;
+            set
+            {
+                if (isDarkTheme != value)
+                {
+                    isDarkTheme = value;
+                    OnPropertyChanged();
+
+                    ApplyTheme();
+                    SaveTheme();
+                }
+            }
+        }
+
+
+
+
+        private bool dashboardVisible;
+        public bool DashboardVisible
+        {
+            get => dashboardVisible;
+            set
+            {
+                if (dashboardVisible != value)
+                {
+                    dashboardVisible = value; 
+                    OnPropertyChanged();
+                }
             }
         }
 
@@ -205,8 +244,9 @@ namespace Task_Management_Application.ViewModels
         {
             
             ShowTaskListCommand = new RelayCommand(ShowTaskList);
-            ShowTaskDetailCommand = new RelayCommand( ShowTaskDetail);
-            ShowSettingsCommand = new RelayCommand( ShowSettings);
+            ShowTaskDetailCommand = new RelayCommand(ShowTaskDetail);
+            ShowSettingsCommand = new RelayCommand(ShowSettings);
+
 
             TaskListVM = new TaskListViewModel();
 
@@ -216,13 +256,24 @@ namespace Task_Management_Application.ViewModels
             };
 
             notificationTimer = new DispatcherTimer();
-            notificationTimer.Interval = TimeSpan.FromMinutes(1);
+            notificationTimer.Interval = TimeSpan.FromSeconds(5);
             notificationTimer.Tick += CheckDueTasks;
             notificationTimer.Start();
+
+            notifyIcon = new NotifyIcon();
+            notifyIcon.Icon = SystemIcons.Information;
+            notifyIcon.Visible = true;
+            notifyIcon.Text = "Text Manager";
+
+
+            LoadTheme();
+            ApplyTheme();
             
         }
 
         private DateTime lastNotificationDate = DateTime.MinValue;
+
+        private NotifyIcon notifyIcon;
         
         private void ShowTaskList()
         {
@@ -242,14 +293,21 @@ namespace Task_Management_Application.ViewModels
 
         private void ShowSettings()
         {
-            CurrentView = new SettingsView();
+            //System.Windows.MessageBox.Show("Settings clicked");
+
+
+            CurrentView = new SettingsView
+            {
+                DataContext = this
+            };
+
+            //System.Windows.MessageBox.Show(CurrentView.GetType().Name);
         }
 
         private void CheckDueTasks(object sender, EventArgs e)
         {
             var today = DateTime.Today;
 
-            // Prevent repeat notification
             if (lastNotificationDate == today)
                 return;
 
@@ -261,18 +319,74 @@ namespace Task_Management_Application.ViewModels
 
             if (dueTodayTasks.Any())
             {
-                string message = "Tasks due today:\n\n";
+                string message = "Tasks due today:\n";
 
                 foreach (var task in dueTodayTasks)
                 {
                     message += "- " + task.Title + "\n";
                 }
 
-                MessageBox.Show(message, "Reminder");
+                ShowNotification(message); // USE BALLOON
 
-                lastNotificationDate = today; // mark as shown
+                lastNotificationDate = today;
             }
         }
+
+
+        private void ShowNotification(string message)
+        {
+            notifyIcon.BalloonTipTitle = "Task Reminder";
+            notifyIcon.BalloonTipText = message;
+            notifyIcon.BalloonTipIcon = ToolTipIcon.Info;
+
+            notifyIcon.ShowBalloonTip(4000);
+        }
+
+        private void ShowDashboard()
+        {
+            if (!DashboardVisible)
+                return;
+
+            CurrentView = new TaskDetailView();
+        }
+
+        private void ApplyTheme()
+        {
+            var theme = new ResourceDictionary();
+
+            if (IsDarkTheme)
+            {
+                theme.Source = new Uri("Themes/DarkTheme.xaml", UriKind.Relative);
+            }
+            else
+            {
+                theme.Source = new Uri("Themes/LightTheme.xaml", UriKind.Relative);
+            }
+
+            System.Windows.Application.Current.Resources.MergedDictionaries.Clear();
+            System.Windows.Application.Current.Resources.MergedDictionaries.Add(theme);
+        }
+
+
+        private void SaveTheme()
+        {
+            File.WriteAllText("theme.txt", IsDarkTheme.ToString());
+        }
+
+
+        private void LoadTheme()
+        {
+            if (File.Exists("theme.txt"))
+            {
+                var value = File.ReadAllText("theme.txt");
+
+                if (bool.TryParse(value, out bool result))
+                {
+                    IsDarkTheme = result;
+                }
+            }
+        }
+
 
     }
 }

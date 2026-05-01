@@ -12,14 +12,14 @@ public class TaskDetailViewModel : ViewModelBase
 {
     private readonly IDataService dataService;
 
-    
+
     private ObservableCollection<Task> allTasks;
 
-    
+
     public ObservableCollection<Task> Tasks { get; set; }
 
 
-    
+
     private string searchText;
     public string SearchText
     {
@@ -31,7 +31,7 @@ public class TaskDetailViewModel : ViewModelBase
         }
     }
 
-    
+
     private string message;
     public string Message
     {
@@ -66,7 +66,7 @@ public class TaskDetailViewModel : ViewModelBase
     public Array DueDateOptions => Enum.GetValues(typeof(DueDateFilter));
 
     private TaskStatusFilter selectedStatus = TaskStatusFilter.All;
-    
+
     public TaskStatusFilter SelectedStatus
     {
         get => selectedStatus;
@@ -74,7 +74,7 @@ public class TaskDetailViewModel : ViewModelBase
         {
             selectedStatus = value;
             OnPropertyChanged();
-            ApplyFilters(); // 🔥 auto filter
+            ApplyFilters(); // auto filter
         }
     }
 
@@ -102,8 +102,38 @@ public class TaskDetailViewModel : ViewModelBase
         }
     }
 
+    private int totalTasks;
+    public int TotalTasks
+    {
+        get => totalTasks;
+        set
+        {
+            totalTasks = value;
+            OnPropertyChanged();
+        }
+    }
 
+    private int pendingTasks;
+    public int PendingTasks
+    {
+        get => pendingTasks;
+        set
+        {
+            pendingTasks = value;
+            OnPropertyChanged();
+        }
+    }
 
+    private int overdueTasks;
+    public int OverdueTasks
+    {
+        get => overdueTasks;
+        set
+        {
+            overdueTasks = value;
+            OnPropertyChanged();
+        }
+    }
 
 
 
@@ -117,7 +147,7 @@ public class TaskDetailViewModel : ViewModelBase
     {
         //SearchCommand = new RelayCommand(Search);
 
-        
+
 
         dataService = new JsonDataService();
 
@@ -134,6 +164,8 @@ public class TaskDetailViewModel : ViewModelBase
         });
 
         CheckCommand = new RelayCommand(Check);
+
+        DashboardDetails();
     }
 
     private void Check()
@@ -148,7 +180,7 @@ public class TaskDetailViewModel : ViewModelBase
     private void Search()
     {
 
-        MessageBox.Show("Search clicked");        
+        //MessageBox.Show("Search clicked");        
 
         if (string.IsNullOrWhiteSpace(SearchText))
         {
@@ -228,6 +260,14 @@ public class TaskDetailViewModel : ViewModelBase
             Tasks.Add(task);
     }
 
+    private void DashboardDetails()
+    {
+        var today = DateTime.Today;
 
+        TotalTasks = allTasks.Count();
 
+        PendingTasks = allTasks.Count(t => !t.IsCompleted);
+
+        OverdueTasks = allTasks.Count(t => t.DueDate.Date < today);
+    }
 }
